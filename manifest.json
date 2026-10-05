@@ -1,0 +1,5840 @@
+[
+ {
+  "name": "7UP Grande",
+  "image": "assets/7UP Grande.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "7UP",
+  "image": "assets/7UP.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Aceite 1.5 L",
+  "image": "assets/Aceite 1.5 L.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Aceite 3L",
+  "image": "assets/Aceite 3L.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Aceite de oliva 500ml",
+  "image": "assets/Aceite de oliva 500ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Aceite de oliva",
+  "image": "assets/Aceite de oliva.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Aceituna Negra",
+  "image": "assets/Aceituna Negra.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Aceitunas",
+  "image": "assets/Aceitunas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acelga",
+  "image": "assets/Acelga.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Aceto Balsámico 4 pimientas",
+  "image": "assets/Aceto Balsámico 4 pimientas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Aceto Balsámico 500ml",
+  "image": "assets/Aceto Balsámico 500ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Aceto Balsámico Clásico",
+  "image": "assets/Aceto Balsámico Clásico.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Aceto Balsámico Frutos Rojos",
+  "image": "assets/Aceto Balsámico Frutos Rojos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Aceto Balsámico Original",
+  "image": "assets/Aceto Balsámico Original.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Aceto Balsámico",
+  "image": "assets/Aceto Balsámico.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Achicoria",
+  "image": "assets/Achicoria.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acondicioandor Sedal Crema Balance Repuesto 300 cc.",
+  "image": "assets/Acondicioandor Sedal Crema Balance Repuesto 300 cc..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acondicionador Balance Plusbelle Bot 1000 ml",
+  "image": "assets/Acondicionador Balance Plusbelle Bot 1000 ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acondicionador Brillo Plusbelle Bot 1000 ml",
+  "image": "assets/Acondicionador Brillo Plusbelle Bot 1000 ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acondicionador Ese Largo Saludable Plusbelle 970 ml",
+  "image": "assets/Acondicionador Ese Largo Saludable Plusbelle 970 ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acondicionador Esencia Control Fizz Plusbelle Bot 970 ml",
+  "image": "assets/Acondicionador Esencia Control Fizz Plusbelle Bot 970 ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acondicionador Esencia Fuerza Reparadora Plusbelle Bot 970 ml",
+  "image": "assets/Acondicionador Esencia Fuerza Reparadora Plusbelle Bot 970 ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acondicionador Esencia Hidratación Intensa Plusbelle 970ml",
+  "image": "assets/Acondicionador Esencia Hidratación Intensa Plusbelle 970ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acondicionador Esencia Restauración Plusbelle Bot 970 ml",
+  "image": "assets/Acondicionador Esencia Restauración Plusbelle Bot 970 ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acondicionador Frescura Plusbelle Bot 1000 ml",
+  "image": "assets/Acondicionador Frescura Plusbelle Bot 1000 ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acondicionador Fuerza Antioxidante Plusbelle 1l",
+  "image": "assets/Acondicionador Fuerza Antioxidante Plusbelle 1l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acondicionador Nutrición Plusbelle Bot 1000 ml",
+  "image": "assets/Acondicionador Nutrición Plusbelle Bot 1000 ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acondicionador Protección Plusbelle Bot 1000 ml",
+  "image": "assets/Acondicionador Protección Plusbelle Bot 1000 ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acondicionador Sedal Ceramidas Repuesto 300 cc.",
+  "image": "assets/Acondicionador Sedal Ceramidas Repuesto 300 cc..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acondicionador Sedal Restauración Repuesto 300 cc.",
+  "image": "assets/Acondicionador Sedal Restauración Repuesto 300 cc..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acondicionador Sedal",
+  "image": "assets/Acondicionador Sedal.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acondicionador Suavidad Plusbelle Bot 1000 ml",
+  "image": "assets/Acondicionador Suavidad Plusbelle Bot 1000 ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acondicionador Vitalidad Plusbelle Bot 1000 ml",
+  "image": "assets/Acondicionador Vitalidad Plusbelle Bot 1000 ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acondicionador",
+  "image": "assets/Acondicionador.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Acuarela",
+  "image": "assets/Acuarela.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Agua 500cc",
+  "image": "assets/Agua 500cc.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Agua mineral 2L",
+  "image": "assets/Agua mineral 2L.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Agua Mineral 6L",
+  "image": "assets/Agua Mineral 6L.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Agua Oxigenada",
+  "image": "assets/Agua Oxigenada.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Agua Saborizada Manzana",
+  "image": "assets/Agua Saborizada Manzana.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Agua Saborizada",
+  "image": "assets/Agua Saborizada.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Ají molido",
+  "image": "assets/Ají molido.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Albahaca",
+  "image": "assets/Albahaca.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Alcachofas",
+  "image": "assets/Alcachofas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "alcohol en Gel Aloevera",
+  "image": "assets/alcohol en Gel Aloevera.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Alcohol en Gel",
+  "image": "assets/Alcohol en Gel.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Alcohol Spray 100ml",
+  "image": "assets/Alcohol Spray 100ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Alcohol Spray 500ml",
+  "image": "assets/Alcohol Spray 500ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Alcohol",
+  "image": "assets/Alcohol.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Alfajor Dulce de Leche",
+  "image": "assets/Alfajor Dulce de Leche.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Alfajor Triple",
+  "image": "assets/Alfajor Triple.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Alfajor",
+  "image": "assets/Alfajor.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Algodon",
+  "image": "assets/Algodon.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Almidón de Maiz Maizena 500g",
+  "image": "assets/Almidón de Maiz Maizena 500g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Almohada",
+  "image": "assets/Almohada.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Almohaditas Rellenas",
+  "image": "assets/Almohaditas Rellenas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Anana",
+  "image": "assets/Anana.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Anchoas",
+  "image": "assets/Anchoas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Antigrasa Cocina",
+  "image": "assets/Antigrasa Cocina.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Antitranspirante Roll On H",
+  "image": "assets/Antitranspirante Roll On H.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Antitranspirante Roll On M",
+  "image": "assets/Antitranspirante Roll On M.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Apio",
+  "image": "assets/Apio.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Arandanos",
+  "image": "assets/Arandanos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Aromatizante de Ambientes",
+  "image": "assets/Aromatizante de Ambientes.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Arroz 1kg",
+  "image": "assets/Arroz 1kg.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Arroz Doble Carolina Molinos Ala 1 kg",
+  "image": "assets/Arroz Doble Carolina Molinos Ala 1 kg.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Arroz Largo Fino Dos Hnos. Paq 1 Kgm",
+  "image": "assets/Arroz Largo Fino Dos Hnos. Paq 1 Kgm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Arroz Largo Fino Gallo 1 kg",
+  "image": "assets/Arroz Largo Fino Gallo 1 kg.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Arroz Largo Fino Lucchetti 1kg",
+  "image": "assets/Arroz Largo Fino Lucchetti 1kg.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Arvejas Cumana 300gr",
+  "image": "assets/Arvejas Cumana 300gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Arvejas Partidas",
+  "image": "assets/Arvejas Partidas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Arvejas Secas Arcor 300 grm",
+  "image": "assets/Arvejas Secas Arcor 300 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Arvejas Secas Marolio Remojadas Tetra 340 g.",
+  "image": "assets/Arvejas Secas Marolio Remojadas Tetra 340 g..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Arvejas",
+  "image": "assets/Arvejas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Atún en Lata",
+  "image": "assets/Atún en Lata.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Avena Instantanea",
+  "image": "assets/Avena Instantanea.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Azucarera",
+  "image": "assets/Azucarera.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Azúcar Blanca Ledesma 1 kg",
+  "image": "assets/Azúcar Blanca Ledesma 1 kg.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Azúcar DUL-C",
+  "image": "assets/Azúcar DUL-C.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Azúcar fronterita",
+  "image": "assets/Azúcar fronterita.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Bacon",
+  "image": "assets/Bacon.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Balde",
+  "image": "assets/Balde.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Banana",
+  "image": "assets/Banana.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Banqueta Plegable",
+  "image": "assets/Banqueta Plegable.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Barritas de arroz",
+  "image": "assets/Barritas de arroz.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Base Iluminadora",
+  "image": "assets/Base Iluminadora.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Batata",
+  "image": "assets/Batata.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Berenjena",
+  "image": "assets/Berenjena.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Bicarbonato",
+  "image": "assets/Bicarbonato.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Biscochuelo",
+  "image": "assets/Biscochuelo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Bizcochuelo Sabor Coco Exquisita 540g",
+  "image": "assets/Bizcochuelo Sabor Coco Exquisita 540g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Bizcochuelo Sabor Limon Exquisita 540g",
+  "image": "assets/Bizcochuelo Sabor Limon Exquisita 540g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Bizcochuelo Sabor Naranja Exquisita 540g",
+  "image": "assets/Bizcochuelo Sabor Naranja Exquisita 540g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Bizcochuelo Sabor Vainilla Exquisita 540g",
+  "image": "assets/Bizcochuelo Sabor Vainilla Exquisita 540g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Bizcochuelo Sabor Vainilla Sin Gluten Exquisita 450g",
+  "image": "assets/Bizcochuelo Sabor Vainilla Sin Gluten Exquisita 450g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Bocado Ancho",
+  "image": "assets/Bocado Ancho.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Bola de lomo",
+  "image": "assets/Bola de lomo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Boldo",
+  "image": "assets/Boldo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Bols",
+  "image": "assets/Bols.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Bolsa Basura",
+  "image": "assets/Bolsa Basura.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Bowl",
+  "image": "assets/Bowl.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Broche Ropa",
+  "image": "assets/Broche Ropa.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Brocolis",
+  "image": "assets/Brocolis.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Budin",
+  "image": "assets/Budin.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Caballa",
+  "image": "assets/Caballa.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cabeza de Ajo",
+  "image": "assets/Cabeza de Ajo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Café en Saquitos",
+  "image": "assets/Café en Saquitos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Café Instantaneo",
+  "image": "assets/Café Instantaneo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Café Molido 1kg",
+  "image": "assets/Café Molido 1kg.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Café Molido 250g",
+  "image": "assets/Café Molido 250g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Café Molido 500g",
+  "image": "assets/Café Molido 500g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Café Molido La Morenita 500 g",
+  "image": "assets/Café Molido La Morenita 500 g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Calabaza",
+  "image": "assets/Calabaza.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Caldo Carne",
+  "image": "assets/Caldo Carne.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Caldo Gallina",
+  "image": "assets/Caldo Gallina.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Caldo Verdura",
+  "image": "assets/Caldo Verdura.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Camaron",
+  "image": "assets/Camaron.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Caramelo",
+  "image": "assets/Caramelo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Carbón",
+  "image": "assets/Carbón.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Carne Molida",
+  "image": "assets/Carne Molida.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "CEBADA EL POCILLO DOY PACK X 170 GR.",
+  "image": "assets/CEBADA EL POCILLO DOY PACK X 170 GR..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cebada Tostada 170g",
+  "image": "assets/Cebada Tostada 170g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cebada Tostada 500g",
+  "image": "assets/Cebada Tostada 500g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cebolla Morada",
+  "image": "assets/Cebolla Morada.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cebolla",
+  "image": "assets/Cebolla.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cepillo de Diente Niño",
+  "image": "assets/Cepillo de Diente Niño.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cepillo de Diente",
+  "image": "assets/Cepillo de Diente.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cepillo de Pelo",
+  "image": "assets/Cepillo de Pelo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cepillo Inodoro",
+  "image": "assets/Cepillo Inodoro.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cera Depilatoria",
+  "image": "assets/Cera Depilatoria.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cereales Copos de Maíz",
+  "image": "assets/Cereales Copos de Maíz.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cereza",
+  "image": "assets/Cereza.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cerveza en lata",
+  "image": "assets/Cerveza en lata.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cerveza",
+  "image": "assets/Cerveza.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Champán",
+  "image": "assets/Champán.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Champiñones",
+  "image": "assets/Champiñones.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Chaucha",
+  "image": "assets/Chaucha.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Chimichurri",
+  "image": "assets/Chimichurri.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Chinchulin",
+  "image": "assets/Chinchulin.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Chizitos",
+  "image": "assets/Chizitos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Choclo Amarillo en Granos Inalpa 300 grm",
+  "image": "assets/Choclo Amarillo en Granos Inalpa 300 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Choclo Cremoso",
+  "image": "assets/Choclo Cremoso.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Choclo Grano",
+  "image": "assets/Choclo Grano.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Choclo",
+  "image": "assets/Choclo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Chocolatada",
+  "image": "assets/Chocolatada.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Chocolate Confitado",
+  "image": "assets/Chocolate Confitado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Chocolino",
+  "image": "assets/Chocolino.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Chorizo",
+  "image": "assets/Chorizo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Chupetín Paleta",
+  "image": "assets/Chupetín Paleta.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Chupetín",
+  "image": "assets/Chupetín.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "CIF",
+  "image": "assets/CIF.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cinta de Empaquetar",
+  "image": "assets/Cinta de Empaquetar.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Ciruela",
+  "image": "assets/Ciruela.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Clip Invisible Largo Para Pelo",
+  "image": "assets/Clip Invisible Largo Para Pelo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Coca Cola",
+  "image": "assets/Coca Cola.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Coco Rallado",
+  "image": "assets/Coco Rallado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Coco",
+  "image": "assets/Coco.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Coffee",
+  "image": "assets/Coffee.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Colador",
+  "image": "assets/Colador.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Coliflor",
+  "image": "assets/Coliflor.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Colita de Cuadril",
+  "image": "assets/Colita de Cuadril.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Colonia femenina",
+  "image": "assets/Colonia femenina.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Comida para perro Sab",
+  "image": "assets/Comida para perro Sab.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Comida para perro Tie",
+  "image": "assets/Comida para perro Tie.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Comino",
+  "image": "assets/Comino.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Compas",
+  "image": "assets/Compas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Complemento de Vitaminas",
+  "image": "assets/Complemento de Vitaminas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Condimento para Arroz",
+  "image": "assets/Condimento para Arroz.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Condimento para carne a la parrilla",
+  "image": "assets/Condimento para carne a la parrilla.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Condimento para empanadas",
+  "image": "assets/Condimento para empanadas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Condimento para Hamburgesas",
+  "image": "assets/Condimento para Hamburgesas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Condimento para Pizza",
+  "image": "assets/Condimento para Pizza.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Confites de Maní",
+  "image": "assets/Confites de Maní.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Conservadora",
+  "image": "assets/Conservadora.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Copa",
+  "image": "assets/Copa.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Costeleta de cerdo",
+  "image": "assets/Costeleta de cerdo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Costeleta",
+  "image": "assets/Costeleta.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Costilla de cerdo",
+  "image": "assets/Costilla de cerdo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Costilla",
+  "image": "assets/Costilla.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Crayon",
+  "image": "assets/Crayon.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Crayones gruesos",
+  "image": "assets/Crayones gruesos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Crema Cuerpo",
+  "image": "assets/Crema Cuerpo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "crema de frutilla",
+  "image": "assets/crema de frutilla.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Crema de leche",
+  "image": "assets/Crema de leche.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Crema de peinar",
+  "image": "assets/Crema de peinar.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Crema Dental 4 en 1 Oral B Cja 70 grm",
+  "image": "assets/Crema Dental 4 en 1 Oral B Cja 70 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Crema Dental Gum Avengers Pomo 100 gr",
+  "image": "assets/Crema Dental Gum Avengers Pomo 100 gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Crema Dental Gum Whitening Plus Pomo 100 gr",
+  "image": "assets/Crema Dental Gum Whitening Plus Pomo 100 gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Crema Dental Max White Colgate Cja 180 grm",
+  "image": "assets/Crema Dental Max White Colgate Cja 180 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Crema Dental Miraculous Gum 100g",
+  "image": "assets/Crema Dental Miraculous Gum 100g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Crema Dental Niño",
+  "image": "assets/Crema Dental Niño.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "crema dental Trolls Gum Pom 100 gr",
+  "image": "assets/crema dental Trolls Gum Pom 100 gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Crema Dental Whitening Gum Cja 120 grm",
+  "image": "assets/Crema Dental Whitening Gum Cja 120 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Crema Dental",
+  "image": "assets/Crema Dental.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Crema para Manos",
+  "image": "assets/Crema para Manos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Crema para Peinar Hialuronico Vitamina A Sedal 300ml",
+  "image": "assets/Crema para Peinar Hialuronico Vitamina A Sedal 300ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Criollo",
+  "image": "assets/Criollo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cuaderno",
+  "image": "assets/Cuaderno.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cuadril",
+  "image": "assets/Cuadril.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cuchara Nylon",
+  "image": "assets/Cuchara Nylon.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cuchara para pastas",
+  "image": "assets/Cuchara para pastas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cuchara",
+  "image": "assets/Cuchara.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cucharita",
+  "image": "assets/Cucharita.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cuchillo",
+  "image": "assets/Cuchillo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Cupcake",
+  "image": "assets/Cupcake.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Curitas",
+  "image": "assets/Curitas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Delineador de Labios",
+  "image": "assets/Delineador de Labios.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Delineador de Ojos",
+  "image": "assets/Delineador de Ojos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Desodorante Antitranspirante en Gel",
+  "image": "assets/Desodorante Antitranspirante en Gel.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Desodorante de Ambiente",
+  "image": "assets/Desodorante de Ambiente.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Desodorante F",
+  "image": "assets/Desodorante F.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Desodorante H",
+  "image": "assets/Desodorante H.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Desodorante niño",
+  "image": "assets/Desodorante niño.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Desodorante Piso",
+  "image": "assets/Desodorante Piso.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Detergente Ala Cremoso Limón 750 cc.",
+  "image": "assets/Detergente Ala Cremoso Limón 750 cc..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Detergente Concentrado Limon Ala 300ml",
+  "image": "assets/Detergente Concentrado Limon Ala 300ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Detergente Concentrado Limón Ala 450ml",
+  "image": "assets/Detergente Concentrado Limón Ala 450ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Detergente Concentrado Océano Ala 300ml",
+  "image": "assets/Detergente Concentrado Océano Ala 300ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Detergente Concentrado Océano Ala 500ml",
+  "image": "assets/Detergente Concentrado Océano Ala 500ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Detergente Concentrado Pomelo Ala 300ml",
+  "image": "assets/Detergente Concentrado Pomelo Ala 300ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Detergente",
+  "image": "assets/Detergente.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Doble Cola Lima Limon",
+  "image": "assets/Doble Cola Lima Limon.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Doble Cola Naranja",
+  "image": "assets/Doble Cola Naranja.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Don Satur",
+  "image": "assets/Don Satur.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Dona",
+  "image": "assets/Dona.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Doritos",
+  "image": "assets/Doritos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Dulce Ciruela",
+  "image": "assets/Dulce Ciruela.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Dulce de Batata y Chocolate",
+  "image": "assets/Dulce de Batata y Chocolate.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Dulce de Batata",
+  "image": "assets/Dulce de Batata.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Dulce de Leche Repostero La Serenisima 400g",
+  "image": "assets/Dulce de Leche Repostero La Serenisima 400g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Dulce de leche Repostero",
+  "image": "assets/Dulce de leche Repostero.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Dulce de leche",
+  "image": "assets/Dulce de leche.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Dulce de Membrillo",
+  "image": "assets/Dulce de Membrillo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Dulce Durazno",
+  "image": "assets/Dulce Durazno.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Dulce Leche Colonial La Serenisima 400g",
+  "image": "assets/Dulce Leche Colonial La Serenisima 400g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Dulce Leche Estilo Colonial La Serenisima 1 kg",
+  "image": "assets/Dulce Leche Estilo Colonial La Serenisima 1 kg.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Dulce Leche La Serenisima Clásico Fuente de Calcio 400 gr",
+  "image": "assets/Dulce Leche La Serenisima Clásico Fuente de Calcio 400 gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Dulce Membrillo",
+  "image": "assets/Dulce Membrillo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Dulce Pera",
+  "image": "assets/Dulce Pera.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Dulce Zapallo",
+  "image": "assets/Dulce Zapallo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Durazno al Natural",
+  "image": "assets/Durazno al Natural.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Durazno",
+  "image": "assets/Durazno.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Edulcorante",
+  "image": "assets/Edulcorante.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Empanadas",
+  "image": "assets/Empanadas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Encendedor",
+  "image": "assets/Encendedor.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Ensaladera",
+  "image": "assets/Ensaladera.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Escoba",
+  "image": "assets/Escoba.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Escobillón",
+  "image": "assets/Escobillón.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Esencia de Vainilla",
+  "image": "assets/Esencia de Vainilla.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Esmalte de Uñas",
+  "image": "assets/Esmalte de Uñas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Esmalte Protector",
+  "image": "assets/Esmalte Protector.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Espátula Ancha",
+  "image": "assets/Espátula Ancha.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Espátula para Untar",
+  "image": "assets/Espátula para Untar.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Espátula",
+  "image": "assets/Espátula.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Especias Surtidas",
+  "image": "assets/Especias Surtidas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Espinaca",
+  "image": "assets/Espinaca.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "espiral",
+  "image": "assets/espiral.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Esponja Cocina",
+  "image": "assets/Esponja Cocina.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Esponja de acero",
+  "image": "assets/Esponja de acero.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Esponja de bronce",
+  "image": "assets/Esponja de bronce.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Espuma de Afeitar",
+  "image": "assets/Espuma de Afeitar.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Espumadera",
+  "image": "assets/Espumadera.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Factura",
+  "image": "assets/Factura.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Falda",
+  "image": "assets/Falda.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fibras",
+  "image": "assets/Fibras.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fibron",
+  "image": "assets/Fibron.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideo 3 vegetales",
+  "image": "assets/Fideo 3 vegetales.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideo Ave Maria",
+  "image": "assets/Fideo Ave Maria.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideo Dedalito",
+  "image": "assets/Fideo Dedalito.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideo Fresco Espinaca",
+  "image": "assets/Fideo Fresco Espinaca.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideo Fresco Huevo",
+  "image": "assets/Fideo Fresco Huevo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideo Fresco Moron",
+  "image": "assets/Fideo Fresco Moron.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideo Letras",
+  "image": "assets/Fideo Letras.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideo Mostachol",
+  "image": "assets/Fideo Mostachol.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideo Spaghetti",
+  "image": "assets/Fideo Spaghetti.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideo Tallarin",
+  "image": "assets/Fideo Tallarin.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideo Tirabuzon",
+  "image": "assets/Fideo Tirabuzon.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideos Coditos Terrabusi 500g",
+  "image": "assets/Fideos Coditos Terrabusi 500g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideos Coditos",
+  "image": "assets/Fideos Coditos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideos Dedalitos Terrabusi 500 g.",
+  "image": "assets/Fideos Dedalitos Terrabusi 500 g..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideos Frescos DANAL 500gr",
+  "image": "assets/Fideos Frescos DANAL 500gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideos Fusilli Mix de Vegetales Terrabusi 500g",
+  "image": "assets/Fideos Fusilli Mix de Vegetales Terrabusi 500g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideos Fusilli Terrabusi 500g",
+  "image": "assets/Fideos Fusilli Terrabusi 500g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideos Moño Lucchetti 500 g",
+  "image": "assets/Fideos Moño Lucchetti 500 g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideos Mostachol Rayados Terrabusi 500g",
+  "image": "assets/Fideos Mostachol Rayados Terrabusi 500g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideos Penne Rigate N 45 3 Vegetales Matarazzo 500g",
+  "image": "assets/Fideos Penne Rigate N 45 3 Vegetales Matarazzo 500g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideos Soperos Semola Terrabusi Ave Maria 500 grm",
+  "image": "assets/Fideos Soperos Semola Terrabusi Ave Maria 500 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideos Soperos Sémola Munición Terrabusi 500 gr",
+  "image": "assets/Fideos Soperos Sémola Munición Terrabusi 500 gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideos Spaghetti N°3 Terrabusi 500g",
+  "image": "assets/Fideos Spaghetti N°3 Terrabusi 500g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideos Tallarin N° 7 Terrabusi 500g",
+  "image": "assets/Fideos Tallarin N° 7 Terrabusi 500g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideos Tallarines Clásicos DI PASCUALLE 500gr",
+  "image": "assets/Fideos Tallarines Clásicos DI PASCUALLE 500gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideos Tallarines Espinaca DI PASCUALLE 500gr",
+  "image": "assets/Fideos Tallarines Espinaca DI PASCUALLE 500gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideos Tallarín Matarazzo 500 g",
+  "image": "assets/Fideos Tallarín Matarazzo 500 g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fideos Tirabuzon N34 3 Vegetales Matarazzo 500g",
+  "image": "assets/Fideos Tirabuzon N34 3 Vegetales Matarazzo 500g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Film",
+  "image": "assets/Film.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Flan Sabor Vainilla Exquisita Sob 40 grm",
+  "image": "assets/Flan Sabor Vainilla Exquisita Sob 40 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Flan",
+  "image": "assets/Flan.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Flow Cereales",
+  "image": "assets/Flow Cereales.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Foco Led",
+  "image": "assets/Foco Led.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Formis",
+  "image": "assets/Formis.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fósforos",
+  "image": "assets/Fósforos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Frambuesa",
+  "image": "assets/Frambuesa.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Frolitas",
+  "image": "assets/Frolitas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Frutigram",
+  "image": "assets/Frutigram.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Frutilla",
+  "image": "assets/Frutilla.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Frutos Secos",
+  "image": "assets/Frutos Secos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Fuentón",
+  "image": "assets/Fuentón.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "gall.salvado . Hogareñas Pak 600 grm",
+  "image": "assets/gall.salvado . Hogareñas Pak 600 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "gall.salvado . Hogareñas Paq 200 grm",
+  "image": "assets/gall.salvado . Hogareñas Paq 200 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galleta 7 Semillas",
+  "image": "assets/Galleta 7 Semillas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galleta de Salvado",
+  "image": "assets/Galleta de Salvado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galleta Surtida",
+  "image": "assets/Galleta Surtida.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galleta",
+  "image": "assets/Galleta.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletas Agridulce",
+  "image": "assets/Galletas Agridulce.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletas de Agua",
+  "image": "assets/Galletas de Agua.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletas de Salvado",
+  "image": "assets/Galletas de Salvado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletas de Sesamo",
+  "image": "assets/Galletas de Sesamo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletas Pepas",
+  "image": "assets/Galletas Pepas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletita Rellena de Chocolate Mana 152 gr",
+  "image": "assets/Galletita Rellena de Chocolate Mana 152 gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletitas Crackers 7 Semillas Hogareñas Paq 567 grm",
+  "image": "assets/Galletitas Crackers 7 Semillas Hogareñas Paq 567 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletitas Crackers 7 Semillas Hogareñas",
+  "image": "assets/Galletitas Crackers 7 Semillas Hogareñas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletitas Crackers con Sésamo Hogareñas 167 grm",
+  "image": "assets/Galletitas Crackers con Sésamo Hogareñas 167 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletitas Crackers Mix de Cereales Hogareñas 185grs",
+  "image": "assets/Galletitas Crackers Mix de Cereales Hogareñas 185grs.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletitas Crackers Mix de Cereales Hogareñas x3",
+  "image": "assets/Galletitas Crackers Mix de Cereales Hogareñas x3.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletitas de Chocolate Rellenas de Vainilla Polvorita 152g",
+  "image": "assets/Galletitas de Chocolate Rellenas de Vainilla Polvorita 152g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletitas Dulces Clasicas Vocacion 141g",
+  "image": "assets/Galletitas Dulces Clasicas Vocacion 141g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletitas Polvorita Vainilla Rellenas Frutilla 81 g.",
+  "image": "assets/Galletitas Polvorita Vainilla Rellenas Frutilla 81 g..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletitas Polvorita Vainilla Rellenas Vainilla 81 g.",
+  "image": "assets/Galletitas Polvorita Vainilla Rellenas Vainilla 81 g..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "galletitas rellenas 152g",
+  "image": "assets/galletitas rellenas 152g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletitas Rellenas Sabor Chocolate Polvorita 81gr",
+  "image": "assets/Galletitas Rellenas Sabor Chocolate Polvorita 81gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletitas Sonrisas",
+  "image": "assets/Galletitas Sonrisas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletitas vainilla rell limon Maná 152 g.",
+  "image": "assets/Galletitas vainilla rell limon Maná 152 g..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletitas vocación Acarameladas",
+  "image": "assets/Galletitas vocación Acarameladas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Galletitas",
+  "image": "assets/Galletitas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Garbanzos Remojado",
+  "image": "assets/Garbanzos Remojado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Garbanzos",
+  "image": "assets/Garbanzos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Garrapiñadas",
+  "image": "assets/Garrapiñadas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa 500cc",
+  "image": "assets/Gaseosa 500cc.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Coca-cola Sabor Original 1,25 lt",
+  "image": "assets/Gaseosa Coca-cola Sabor Original 1,25 lt.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Coca-cola Sabor Original 2,25 lt",
+  "image": "assets/Gaseosa Coca-cola Sabor Original 2,25 lt.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Coca-cola Sabor Original 3 lt",
+  "image": "assets/Gaseosa Coca-cola Sabor Original 3 lt.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Cola Pepsi 2l",
+  "image": "assets/Gaseosa Cola Pepsi 2l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Crush Sin Azúcar Naranja 2,25 lt",
+  "image": "assets/Gaseosa Crush Sin Azúcar Naranja 2,25 lt.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Doble Cola Botella 2.25 l",
+  "image": "assets/Gaseosa Doble Cola Botella 2.25 l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "GASEOSA DOBLE COLA BOTELLA X 3 L",
+  "image": "assets/GASEOSA DOBLE COLA BOTELLA X 3 L.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Fanta Pomelo 1,75 lt",
+  "image": "assets/Gaseosa Fanta Pomelo 1,75 lt.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Lima Limón 7 Up Regular Pet 3 lts",
+  "image": "assets/Gaseosa Lima Limón 7 Up Regular Pet 3 lts.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Manzana Crush Pet 3 l.",
+  "image": "assets/Gaseosa Manzana Crush Pet 3 l..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Mirinda 2.25 l",
+  "image": "assets/Gaseosa Mirinda 2.25 l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Naranja Fanta 3 lts",
+  "image": "assets/Gaseosa Naranja Fanta 3 lts.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Naranja Regular Crush Pet 3 l.",
+  "image": "assets/Gaseosa Naranja Regular Crush Pet 3 l..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Paso de Los Toros Pomelo Botella 1.5 l",
+  "image": "assets/Gaseosa Paso de Los Toros Pomelo Botella 1.5 l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Pepsi Botella 3 l",
+  "image": "assets/Gaseosa Pepsi Botella 3 l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Pritty Limón Botella 1.5 l",
+  "image": "assets/Gaseosa Pritty Limón Botella 1.5 l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Pritty Limón Botella 2.25 l",
+  "image": "assets/Gaseosa Pritty Limón Botella 2.25 l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Pritty Zero Limón Botella 2.5 l",
+  "image": "assets/Gaseosa Pritty Zero Limón Botella 2.5 l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Sabor Lima Limon Seven Up 3000 cmq",
+  "image": "assets/Gaseosa Sabor Lima Limon Seven Up 3000 cmq.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Secco Cola 2,25 lt",
+  "image": "assets/Gaseosa Secco Cola 2,25 lt.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Secco Naranja 2,25 lt",
+  "image": "assets/Gaseosa Secco Naranja 2,25 lt.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Secco Pomelo 2,25 lt",
+  "image": "assets/Gaseosa Secco Pomelo 2,25 lt.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Seven Up Botella 2.25 l",
+  "image": "assets/Gaseosa Seven Up Botella 2.25 l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa Seven Up Sin Azúcar Botella 2.25 l",
+  "image": "assets/Gaseosa Seven Up Sin Azúcar Botella 2.25 l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gaseosa",
+  "image": "assets/Gaseosa.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gel Dental Advancedcare Gum 100g",
+  "image": "assets/Gel Dental Advancedcare Gum 100g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gelatina Cereza",
+  "image": "assets/Gelatina Cereza.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gelatina Durazno",
+  "image": "assets/Gelatina Durazno.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gelatina Light Sabor Cereza Exquisita 25g",
+  "image": "assets/Gelatina Light Sabor Cereza Exquisita 25g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gelatina Light Sabor Durazno Exquisita 25g",
+  "image": "assets/Gelatina Light Sabor Durazno Exquisita 25g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gelatina Light Sabor Frutilla Exquisita 25g",
+  "image": "assets/Gelatina Light Sabor Frutilla Exquisita 25g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gelatina Sabor Cereza Exquisita 40g",
+  "image": "assets/Gelatina Sabor Cereza Exquisita 40g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gelatina Sabor Durazno Exquisita 40g",
+  "image": "assets/Gelatina Sabor Durazno Exquisita 40g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gelatina Sabor Frambuesa Exquisita 40g",
+  "image": "assets/Gelatina Sabor Frambuesa Exquisita 40g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gelatina Sabor Frutilla Exquisita 40g",
+  "image": "assets/Gelatina Sabor Frutilla Exquisita 40g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gelatina Sabor Naranja Exquisita 40g",
+  "image": "assets/Gelatina Sabor Naranja Exquisita 40g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gelatina",
+  "image": "assets/Gelatina.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Goma",
+  "image": "assets/Goma.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Gomita de Pelo",
+  "image": "assets/Gomita de Pelo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Granadina",
+  "image": "assets/Granadina.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Granola",
+  "image": "assets/Granola.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Guantes de Látex",
+  "image": "assets/Guantes de Látex.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Guantes",
+  "image": "assets/Guantes.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Hamburguesa",
+  "image": "assets/Hamburguesa.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Harina 0000 Pureza 1 kg",
+  "image": "assets/Harina 0000 Pureza 1 kg.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Harina 0000",
+  "image": "assets/Harina 0000.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Harina Comun",
+  "image": "assets/Harina Comun.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Harina de Maíz para Preparar Polenta Egran 1kg",
+  "image": "assets/Harina de Maíz para Preparar Polenta Egran 1kg.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Harina Integral",
+  "image": "assets/Harina Integral.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Harina Leudante Pureza 1 kg",
+  "image": "assets/Harina Leudante Pureza 1 kg.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Harina Leudante",
+  "image": "assets/Harina Leudante.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Hebillas para el Cabello",
+  "image": "assets/Hebillas para el Cabello.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Helado",
+  "image": "assets/Helado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Higado",
+  "image": "assets/Higado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Hilo Dental Gum Expanding Floss Blister 40 Metros",
+  "image": "assets/Hilo Dental Gum Expanding Floss Blister 40 Metros.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Hilo Dental",
+  "image": "assets/Hilo Dental.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Hisopos",
+  "image": "assets/Hisopos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Hojas A4",
+  "image": "assets/Hojas A4.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Hongo",
+  "image": "assets/Hongo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Huevo Blanco",
+  "image": "assets/Huevo Blanco.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Huevo de Color",
+  "image": "assets/Huevo de Color.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Incienso en Varillas",
+  "image": "assets/Incienso en Varillas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Insecticida",
+  "image": "assets/Insecticida.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jabón Dove",
+  "image": "assets/Jabón Dove.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jabón En Polvo",
+  "image": "assets/Jabón En Polvo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jabón Líquido Ala Matic para Diluir 500ml",
+  "image": "assets/Jabón Líquido Ala Matic para Diluir 500ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jabón Líquido con Bicarbonato Ala Matic 500ml",
+  "image": "assets/Jabón Líquido con Bicarbonato Ala Matic 500ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jabón Líquido Ropa",
+  "image": "assets/Jabón Líquido Ropa.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jabón Líquido",
+  "image": "assets/Jabón Líquido.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jabón Tocador Esencia con Glicerina Plusbelle 120 grm",
+  "image": "assets/Jabón Tocador Esencia con Glicerina Plusbelle 120 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jabón Tocador Esencia con Leche de Arroz Plusbelle 120 grm",
+  "image": "assets/Jabón Tocador Esencia con Leche de Arroz Plusbelle 120 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jabón Tocador Esencia con Leche de Arroz Plusbelle 360 grm",
+  "image": "assets/Jabón Tocador Esencia con Leche de Arroz Plusbelle 360 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jabón Tocador Esencia con Miel Plusbelle 120 grm",
+  "image": "assets/Jabón Tocador Esencia con Miel Plusbelle 120 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jabón Tocador Vita Glicerina Balance Plusbelle x 120 grm",
+  "image": "assets/Jabón Tocador Vita Glicerina Balance Plusbelle x 120 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jabón Tocador Vita Glicerina Frescura 3x Plusbelle x 360 grm",
+  "image": "assets/Jabón Tocador Vita Glicerina Frescura 3x Plusbelle x 360 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jabón Tocador Vita Glicerina Nutrición Plusbelle x 120 grm",
+  "image": "assets/Jabón Tocador Vita Glicerina Nutrición Plusbelle x 120 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jabón",
+  "image": "assets/Jabón.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jardinera",
+  "image": "assets/Jardinera.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jengibre",
+  "image": "assets/Jengibre.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo Anana",
+  "image": "assets/Jugo Anana.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en caja 125ml",
+  "image": "assets/Jugo en caja 125ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en caja Manzana",
+  "image": "assets/Jugo en caja Manzana.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Caja Naranja",
+  "image": "assets/Jugo en Caja Naranja.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Clight Ananá 7g",
+  "image": "assets/Jugo en Polvo Clight Ananá 7g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Clight Limonada 8 g",
+  "image": "assets/Jugo en Polvo Clight Limonada 8 g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Clight Limonada Maracuyá 7,5g",
+  "image": "assets/Jugo en Polvo Clight Limonada Maracuyá 7,5g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Clight Limonada Rosa 8g",
+  "image": "assets/Jugo en Polvo Clight Limonada Rosa 8g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Clight Mandarina 8g",
+  "image": "assets/Jugo en Polvo Clight Mandarina 8g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Clight Manzana Deliciosa 7g",
+  "image": "assets/Jugo en Polvo Clight Manzana Deliciosa 7g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Clight Manzana Verde 7,5g",
+  "image": "assets/Jugo en Polvo Clight Manzana Verde 7,5g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Clight Naranja 8 g",
+  "image": "assets/Jugo en Polvo Clight Naranja 8 g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Clight Naranja Dulce 7,5 g",
+  "image": "assets/Jugo en Polvo Clight Naranja Dulce 7,5 g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Clight Naranja Durazno 7,5g",
+  "image": "assets/Jugo en Polvo Clight Naranja Durazno 7,5g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Clight Naranja Mango 7g",
+  "image": "assets/Jugo en Polvo Clight Naranja Mango 7g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Clight Pomelo Rosado 8 g",
+  "image": "assets/Jugo en Polvo Clight Pomelo Rosado 8 g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo en Polvo Tang Uva 15g",
+  "image": "assets/Jugo en Polvo en Polvo Tang Uva 15g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Light Dia Manzana Deliciosa 7,5 gr.",
+  "image": "assets/Jugo en Polvo Light Dia Manzana Deliciosa 7,5 gr..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Light Dia Naranja 10 gr.",
+  "image": "assets/Jugo en Polvo Light Dia Naranja 10 gr..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Light Dia Pomelo 10 gr.",
+  "image": "assets/Jugo en Polvo Light Dia Pomelo 10 gr..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Tang Ananá 15g",
+  "image": "assets/Jugo en Polvo Tang Ananá 15g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Tang Durazno 15g",
+  "image": "assets/Jugo en Polvo Tang Durazno 15g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Tang Limonada Dulce 15g",
+  "image": "assets/Jugo en Polvo Tang Limonada Dulce 15g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Tang Manzana 15g",
+  "image": "assets/Jugo en Polvo Tang Manzana 15g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Tang Multifruta 15g",
+  "image": "assets/Jugo en Polvo Tang Multifruta 15g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Tang Naranja 15g",
+  "image": "assets/Jugo en Polvo Tang Naranja 15g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Tang Naranja Banana 15g",
+  "image": "assets/Jugo en Polvo Tang Naranja Banana 15g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Tang Naranja Dulce 15g",
+  "image": "assets/Jugo en Polvo Tang Naranja Dulce 15g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Tang Naranja Durazno 15g",
+  "image": "assets/Jugo en Polvo Tang Naranja Durazno 15g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Tang Naranja Lima 15g",
+  "image": "assets/Jugo en Polvo Tang Naranja Lima 15g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Tang Naranja Mango 15g",
+  "image": "assets/Jugo en Polvo Tang Naranja Mango 15g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Tang Pomelo Rosado 15g",
+  "image": "assets/Jugo en Polvo Tang Pomelo Rosado 15g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo en Polvo Tang Sabor Pera 15g",
+  "image": "assets/Jugo en Polvo Tang Sabor Pera 15g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo Limonada - Arandanos",
+  "image": "assets/Jugo Limonada - Arandanos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo Limón",
+  "image": "assets/Jugo Limón.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo Naranja Banana",
+  "image": "assets/Jugo Naranja Banana.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo Naranja",
+  "image": "assets/Jugo Naranja.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Jugo Pomelo",
+  "image": "assets/Jugo Pomelo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "k-hotrina",
+  "image": "assets/k-hotrina.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Kétchup 250g",
+  "image": "assets/Kétchup 250g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Kétchup 500g",
+  "image": "assets/Kétchup 500g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Kiwi",
+  "image": "assets/Kiwi.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "La gotita Gel",
+  "image": "assets/La gotita Gel.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "La gotita",
+  "image": "assets/La gotita.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Labial",
+  "image": "assets/Labial.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Lapicera de Colores",
+  "image": "assets/Lapicera de Colores.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Lapiceras",
+  "image": "assets/Lapiceras.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Laurel",
+  "image": "assets/Laurel.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Lavandina",
+  "image": "assets/Lavandina.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Lápices de colores",
+  "image": "assets/Lápices de colores.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Lápiz Delineador de Cejas",
+  "image": "assets/Lápiz Delineador de Cejas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Lápiz",
+  "image": "assets/Lápiz.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche Clásica Mas Liviana La Serenisima Botella Larga Vida 1l",
+  "image": "assets/Leche Clásica Mas Liviana La Serenisima Botella Larga Vida 1l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche con Hierro La Serenisina Botella Larga Vida 1l",
+  "image": "assets/Leche con Hierro La Serenisina Botella Larga Vida 1l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche Condensada",
+  "image": "assets/Leche Condensada.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche Descremada Larga Vida Barista La Serenisima 1 ltr",
+  "image": "assets/Leche Descremada Larga Vida Barista La Serenisima 1 ltr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche Descremada Menos Calorias La Serenisima Botella Larga Vida 1l",
+  "image": "assets/Leche Descremada Menos Calorias La Serenisima Botella Larga Vida 1l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche en Polvo",
+  "image": "assets/Leche en Polvo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche Entera Clasica La Serenisima Botella Larga Vida 1l",
+  "image": "assets/Leche Entera Clasica La Serenisima Botella Larga Vida 1l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche Entera Clasica La Serenisima Sachet 1l",
+  "image": "assets/Leche Entera Clasica La Serenisima Sachet 1l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche Extra Calcio La Serenisina Botella Larga Vida 1l",
+  "image": "assets/Leche Extra Calcio La Serenisina Botella Larga Vida 1l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche La Serenisima con Prebióticos 1l",
+  "image": "assets/Leche La Serenisima con Prebióticos 1l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche larga vida desc",
+  "image": "assets/Leche larga vida desc.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche larga vida deslac",
+  "image": "assets/Leche larga vida deslac.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche Larga Vida Entera Ua Clasica 3% La Serenisima 1l",
+  "image": "assets/Leche Larga Vida Entera Ua Clasica 3% La Serenisima 1l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche larga vida Entera",
+  "image": "assets/Leche larga vida Entera.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche Larga Vida Parcialmente Descremada Liviana 1% La Serenisima 1l",
+  "image": "assets/Leche Larga Vida Parcialmente Descremada Liviana 1% La Serenisima 1l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche Larga Vida",
+  "image": "assets/Leche Larga Vida.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche Multidefensas 1% La Serenisima Sachet 1l",
+  "image": "assets/Leche Multidefensas 1% La Serenisima Sachet 1l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche Multidefensas 2% La Serenisima Sachet 1l",
+  "image": "assets/Leche Multidefensas 2% La Serenisima Sachet 1l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche Parcialmente Descremada Liviana La Serenisima 1% 1l",
+  "image": "assets/Leche Parcialmente Descremada Liviana La Serenisima 1% 1l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche Parcialmente Descremada Liviana La Serenisima Botella Larga Vida 1l",
+  "image": "assets/Leche Parcialmente Descremada Liviana La Serenisima Botella Larga Vida 1l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche Parcialmente Descremada Liviana La Serenisima Larga Vida 1l",
+  "image": "assets/Leche Parcialmente Descremada Liviana La Serenisima Larga Vida 1l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche Protein La Serenisina Botella Larga Vida 1l",
+  "image": "assets/Leche Protein La Serenisina Botella Larga Vida 1l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Leche Zero Lactosa La Serenisima Botella Larga Vida 1l",
+  "image": "assets/Leche Zero Lactosa La Serenisima Botella Larga Vida 1l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Lechuga Arrepollada",
+  "image": "assets/Lechuga Arrepollada.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Lechuga Criolla",
+  "image": "assets/Lechuga Criolla.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Lenteja",
+  "image": "assets/Lenteja.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Levadura en polvo",
+  "image": "assets/Levadura en polvo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Levadura Fresca Calsa 50 gr x 2 Unidades",
+  "image": "assets/Levadura Fresca Calsa 50 gr x 2 Unidades.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Levadura Fresca Calsa 50 gr",
+  "image": "assets/Levadura Fresca Calsa 50 gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Levadura Fresca Prensada Calsa 50 g.",
+  "image": "assets/Levadura Fresca Prensada Calsa 50 g..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Levadura Prensada Levex en Cubito 50 g.",
+  "image": "assets/Levadura Prensada Levex en Cubito 50 g..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Levadura Seca Calsa Mi Pan 10 gr",
+  "image": "assets/Levadura Seca Calsa Mi Pan 10 gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Levadura Seca Levex 10g 2 Unidades",
+  "image": "assets/Levadura Seca Levex 10g 2 Unidades.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Levadura",
+  "image": "assets/Levadura.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Levaduras con Masa Madre Levex 13g",
+  "image": "assets/Levaduras con Masa Madre Levex 13g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Limon",
+  "image": "assets/Limon.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Limpia Baño",
+  "image": "assets/Limpia Baño.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Limpia inodoro",
+  "image": "assets/Limpia inodoro.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Limpia Vidrios",
+  "image": "assets/Limpia Vidrios.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Limpiador Antigrasa",
+  "image": "assets/Limpiador Antigrasa.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Limpiador Desinfectante de Piso",
+  "image": "assets/Limpiador Desinfectante de Piso.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Limpiador Vidrios y Multiuso",
+  "image": "assets/Limpiador Vidrios y Multiuso.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Lincoln",
+  "image": "assets/Lincoln.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Linterna Led",
+  "image": "assets/Linterna Led.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Lomito",
+  "image": "assets/Lomito.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Luz de Emergencia",
+  "image": "assets/Luz de Emergencia.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Madalenas",
+  "image": "assets/Madalenas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Maggi Caldo Equilibrium Verdura x 12u.",
+  "image": "assets/Maggi Caldo Equilibrium Verdura x 12u..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Maiz Egran Pisingallo Bsa 500 grm",
+  "image": "assets/Maiz Egran Pisingallo Bsa 500 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Maizena",
+  "image": "assets/Maizena.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Maíz Blanco",
+  "image": "assets/Maíz Blanco.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Maíz Pizingallo",
+  "image": "assets/Maíz Pizingallo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Malta El Pocillo 200gr",
+  "image": "assets/Malta El Pocillo 200gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Mana Rellenas",
+  "image": "assets/Mana Rellenas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Mana x3",
+  "image": "assets/Mana x3.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Mandarina",
+  "image": "assets/Mandarina.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Mango",
+  "image": "assets/Mango.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Manguera",
+  "image": "assets/Manguera.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Maní Confitado",
+  "image": "assets/Maní Confitado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Maní",
+  "image": "assets/Maní.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Manteca de Cacao",
+  "image": "assets/Manteca de Cacao.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Manteca La Paulina 100gr",
+  "image": "assets/Manteca La Paulina 100gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Manteca La Paulina 200gr",
+  "image": "assets/Manteca La Paulina 200gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Manteca",
+  "image": "assets/Manteca.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Mantecol",
+  "image": "assets/Mantecol.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Manzana verde",
+  "image": "assets/Manzana verde.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "manzana",
+  "image": "assets/manzana.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Manzanilla",
+  "image": "assets/Manzanilla.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Matambre de Novillito",
+  "image": "assets/Matambre de Novillito.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Mate Cocido La Tranquera 50 saq",
+  "image": "assets/Mate Cocido La Tranquera 50 saq.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Mate Cocido Tradicional x25 Saquitos",
+  "image": "assets/Mate Cocido Tradicional x25 Saquitos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Mate en Saquito 25unid",
+  "image": "assets/Mate en Saquito 25unid.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Mate en Saquito 50unid",
+  "image": "assets/Mate en Saquito 50unid.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Mate",
+  "image": "assets/Mate.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Mayonesa 1kg",
+  "image": "assets/Mayonesa 1kg.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Mayonesa 500",
+  "image": "assets/Mayonesa 500.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Mayonesa 500g",
+  "image": "assets/Mayonesa 500g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Mazorca",
+  "image": "assets/Mazorca.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Máscara de Pestañas",
+  "image": "assets/Máscara de Pestañas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Medialuna",
+  "image": "assets/Medialuna.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Melon",
+  "image": "assets/Melon.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Merengadas",
+  "image": "assets/Merengadas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Merluza en lata",
+  "image": "assets/Merluza en lata.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Merluza",
+  "image": "assets/Merluza.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Miel",
+  "image": "assets/Miel.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Milanesas",
+  "image": "assets/Milanesas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Moluscos",
+  "image": "assets/Moluscos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Mondongo",
+  "image": "assets/Mondongo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Mora",
+  "image": "assets/Mora.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Morcilla",
+  "image": "assets/Morcilla.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Mostaza",
+  "image": "assets/Mostaza.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Naftalina",
+  "image": "assets/Naftalina.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Nalga",
+  "image": "assets/Nalga.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Naranja",
+  "image": "assets/Naranja.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Nuez Moscada",
+  "image": "assets/Nuez Moscada.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Nuez",
+  "image": "assets/Nuez.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Nutella",
+  "image": "assets/Nutella.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Ñoquis DI PASCUALLE 500gr",
+  "image": "assets/Ñoquis DI PASCUALLE 500gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Ñoquis",
+  "image": "assets/Ñoquis.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Oblea de Frutilla",
+  "image": "assets/Oblea de Frutilla.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Oblea de Limon",
+  "image": "assets/Oblea de Limon.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Oblea",
+  "image": "assets/Oblea.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "OFF Crema",
+  "image": "assets/OFF Crema.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "OFF Spray",
+  "image": "assets/OFF Spray.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Oregano",
+  "image": "assets/Oregano.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Osobuco",
+  "image": "assets/Osobuco.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Osspret Shampoo y Enjuague para Perros",
+  "image": "assets/Osspret Shampoo y Enjuague para Perros.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pack Jabón Liquido para Diluir + Ala Bid 500 ml",
+  "image": "assets/Pack Jabón Liquido para Diluir + Ala Bid 500 ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pala para residuos Mano",
+  "image": "assets/Pala para residuos Mano.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pala para residuos",
+  "image": "assets/Pala para residuos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Paleta de Sombras",
+  "image": "assets/Paleta de Sombras.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Paleta",
+  "image": "assets/Paleta.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Palillos de Madera",
+  "image": "assets/Palillos de Madera.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Palito helado",
+  "image": "assets/Palito helado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Palitos Salados",
+  "image": "assets/Palitos Salados.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Palmitos",
+  "image": "assets/Palmitos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Palo de piso",
+  "image": "assets/Palo de piso.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Palo",
+  "image": "assets/Palo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Palta",
+  "image": "assets/Palta.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pan de Hamburguesas",
+  "image": "assets/Pan de Hamburguesas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pan de Pancho",
+  "image": "assets/Pan de Pancho.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pan Dulce",
+  "image": "assets/Pan Dulce.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pan Lactal",
+  "image": "assets/Pan Lactal.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pan Negro Tostado",
+  "image": "assets/Pan Negro Tostado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pan Negro",
+  "image": "assets/Pan Negro.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pan Rallado",
+  "image": "assets/Pan Rallado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pan Tostado",
+  "image": "assets/Pan Tostado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pan",
+  "image": "assets/Pan.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Panchos",
+  "image": "assets/Panchos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Panqueques",
+  "image": "assets/Panqueques.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pañal",
+  "image": "assets/Pañal.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Paño Multiuso",
+  "image": "assets/Paño Multiuso.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pañuelo descartable",
+  "image": "assets/Pañuelo descartable.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Papas",
+  "image": "assets/Papas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Papel Aluminio",
+  "image": "assets/Papel Aluminio.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "PAPEL HIGIENICO OLIMPO 4 X 80",
+  "image": "assets/PAPEL HIGIENICO OLIMPO 4 X 80.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Papel Higiénico",
+  "image": "assets/Papel Higiénico.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Papitas",
+  "image": "assets/Papitas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pascualina",
+  "image": "assets/Pascualina.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pasta de Maní",
+  "image": "assets/Pasta de Maní.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pasta Dental Colgate Max Blanqueadora 180g",
+  "image": "assets/Pasta Dental Colgate Max Blanqueadora 180g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pasta dental Colgate máxima protección anticaries 180 grs",
+  "image": "assets/Pasta dental Colgate máxima protección anticaries 180 grs.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pasta dental Colgate máxima protección anticaries 90 grs",
+  "image": "assets/Pasta dental Colgate máxima protección anticaries 90 grs.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pasta Dental Colgate Original 180g",
+  "image": "assets/Pasta Dental Colgate Original 180g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pasta Dental Colgate Protección Anticaries 90g",
+  "image": "assets/Pasta Dental Colgate Protección Anticaries 90g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pasta Dental Colgate Triple Beneficio 180 g",
+  "image": "assets/Pasta Dental Colgate Triple Beneficio 180 g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pasta Dental Colgate Triple Beneficio Blanqueador 140 g",
+  "image": "assets/Pasta Dental Colgate Triple Beneficio Blanqueador 140 g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pastel",
+  "image": "assets/Pastel.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pata de Pollo",
+  "image": "assets/Pata de Pollo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pata Muslo",
+  "image": "assets/Pata Muslo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Peceto",
+  "image": "assets/Peceto.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pechuga de pollo",
+  "image": "assets/Pechuga de pollo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Peine",
+  "image": "assets/Peine.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pepas Membrillo Trio Paq 500 grm",
+  "image": "assets/Pepas Membrillo Trio Paq 500 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pepas",
+  "image": "assets/Pepas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pepino",
+  "image": "assets/Pepino.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pepsi",
+  "image": "assets/Pepsi.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pera",
+  "image": "assets/Pera.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Percha",
+  "image": "assets/Percha.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Perejil",
+  "image": "assets/Perejil.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Perfume Paco",
+  "image": "assets/Perfume Paco.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Perfume",
+  "image": "assets/Perfume.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pescado",
+  "image": "assets/Pescado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Picadillo de Carne",
+  "image": "assets/Picadillo de Carne.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pickle",
+  "image": "assets/Pickle.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pila AA",
+  "image": "assets/Pila AA.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pila AAA",
+  "image": "assets/Pila AAA.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pila C",
+  "image": "assets/Pila C.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pila D2",
+  "image": "assets/Pila D2.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pimenton",
+  "image": "assets/Pimenton.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pimienta",
+  "image": "assets/Pimienta.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pimiento - Morrones",
+  "image": "assets/Pimiento - Morrones.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pimiento Amarillo",
+  "image": "assets/Pimiento Amarillo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pimiento Rojo",
+  "image": "assets/Pimiento Rojo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pimiento Verde",
+  "image": "assets/Pimiento Verde.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pinzas Para El Cabello",
+  "image": "assets/Pinzas Para El Cabello.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pipas",
+  "image": "assets/Pipas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pizzas",
+  "image": "assets/Pizzas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Plasticola",
+  "image": "assets/Plasticola.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Plastilina",
+  "image": "assets/Plastilina.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Plato Hondo",
+  "image": "assets/Plato Hondo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Plato Playo",
+  "image": "assets/Plato Playo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Polenta Comun",
+  "image": "assets/Polenta Comun.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Polenta Instantanea Egran Bolsa x 500 Grs",
+  "image": "assets/Polenta Instantanea Egran Bolsa x 500 Grs.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Polenta",
+  "image": "assets/Polenta.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pollo",
+  "image": "assets/Pollo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Polvo Comp Cara",
+  "image": "assets/Polvo Comp Cara.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Polvo de Hornear",
+  "image": "assets/Polvo de Hornear.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Polvo Pedico Efficient Fresh Rexona 100 grm",
+  "image": "assets/Polvo Pedico Efficient Fresh Rexona 100 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Polvo Pedico Efficient Fresh Rexona Tar 200 grm",
+  "image": "assets/Polvo Pedico Efficient Fresh Rexona Tar 200 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Polvo Pedico Efficient Original Rexona 100 grm",
+  "image": "assets/Polvo Pedico Efficient Original Rexona 100 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Polvo Pedico Efficient Original Rexona 200 grm",
+  "image": "assets/Polvo Pedico Efficient Original Rexona 200 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Polvorita Chocolate",
+  "image": "assets/Polvorita Chocolate.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Polvorita Vainilla",
+  "image": "assets/Polvorita Vainilla.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Polvorita",
+  "image": "assets/Polvorita.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Poroto",
+  "image": "assets/Poroto.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Porotos remojado",
+  "image": "assets/Porotos remojado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Postre Sabor Dulce de Leche Exquisita 80 grm",
+  "image": "assets/Postre Sabor Dulce de Leche Exquisita 80 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Postre Vainilla Exquisita 80 grm",
+  "image": "assets/Postre Vainilla Exquisita 80 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Postre Vainilla Light Exquisita Sob 50 grm",
+  "image": "assets/Postre Vainilla Light Exquisita Sob 50 grm.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Postre",
+  "image": "assets/Postre.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Poxi-ran 250",
+  "image": "assets/Poxi-ran 250.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Poxi-ran",
+  "image": "assets/Poxi-ran.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Prestobarba",
+  "image": "assets/Prestobarba.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pritty 1L",
+  "image": "assets/Pritty 1L.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pritty 3L",
+  "image": "assets/Pritty 3L.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Protector Diario",
+  "image": "assets/Protector Diario.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Protector Solar",
+  "image": "assets/Protector Solar.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Provensal",
+  "image": "assets/Provensal.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pulpa de Tomate Baggio 7dias",
+  "image": "assets/Pulpa de Tomate Baggio 7dias.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Pure de Tomate",
+  "image": "assets/Pure de Tomate.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Queso Cremoso",
+  "image": "assets/Queso Cremoso.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Queso Emmental",
+  "image": "assets/Queso Emmental.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Queso Rallado",
+  "image": "assets/Queso Rallado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Queso",
+  "image": "assets/Queso.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Quitaesmalte",
+  "image": "assets/Quitaesmalte.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Quitamanchas en Polvo",
+  "image": "assets/Quitamanchas en Polvo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Raid",
+  "image": "assets/Raid.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Ravioles Jamón y Queso DI PASCUALLE 1kg",
+  "image": "assets/Ravioles Jamón y Queso DI PASCUALLE 1kg.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Ravioles Jamón y Queso",
+  "image": "assets/Ravioles Jamón y Queso.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Ravioles Pollo y Verdura DI PASCUALLE 500gr",
+  "image": "assets/Ravioles Pollo y Verdura DI PASCUALLE 500gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Ravioles Verdura",
+  "image": "assets/Ravioles Verdura.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Reflector",
+  "image": "assets/Reflector.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Regla-Esc-Transp",
+  "image": "assets/Regla-Esc-Transp.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Rejilla",
+  "image": "assets/Rejilla.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Relleno Bon o Bon",
+  "image": "assets/Relleno Bon o Bon.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Relleno Fondue",
+  "image": "assets/Relleno Fondue.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Remolacha",
+  "image": "assets/Remolacha.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Repollo Morado",
+  "image": "assets/Repollo Morado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Reposera",
+  "image": "assets/Reposera.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Resaltador",
+  "image": "assets/Resaltador.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Rhodesia",
+  "image": "assets/Rhodesia.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Roast Beef",
+  "image": "assets/Roast Beef.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Rollo de cocina maxi rollo Felpita x 200 paños",
+  "image": "assets/Rollo de cocina maxi rollo Felpita x 200 paños.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Rollo de Cocina",
+  "image": "assets/Rollo de Cocina.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Rubor Compacto",
+  "image": "assets/Rubor Compacto.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Rucula",
+  "image": "assets/Rucula.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Sacapunta Metal",
+  "image": "assets/Sacapunta Metal.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Sal Entrefina",
+  "image": "assets/Sal Entrefina.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Sal Fina Celusal 500 g",
+  "image": "assets/Sal Fina Celusal 500 g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Sal Gruesa",
+  "image": "assets/Sal Gruesa.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Saladix p",
+  "image": "assets/Saladix p.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Saladix",
+  "image": "assets/Saladix.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Salchichas",
+  "image": "assets/Salchichas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Salvado x1",
+  "image": "assets/Salvado x1.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Sandia",
+  "image": "assets/Sandia.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Saphirus",
+  "image": "assets/Saphirus.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Savora 250g",
+  "image": "assets/Savora 250g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Savora 500g",
+  "image": "assets/Savora 500g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Servilletas",
+  "image": "assets/Servilletas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Sesamo",
+  "image": "assets/Sesamo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Shampoo Brillo Plusbelle Bot 1000 ml",
+  "image": "assets/Shampoo Brillo Plusbelle Bot 1000 ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Shampoo Esencia Largo Saludable Plusbelle 970 ml",
+  "image": "assets/Shampoo Esencia Largo Saludable Plusbelle 970 ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Shampoo Esencia Restauración Plusbelle Bot 970 ml",
+  "image": "assets/Shampoo Esencia Restauración Plusbelle Bot 970 ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Shampoo Frescura Plusbelle Bot 1000 ml",
+  "image": "assets/Shampoo Frescura Plusbelle Bot 1000 ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Shampoo Fuerza Antioxidante Plusbelle 1l",
+  "image": "assets/Shampoo Fuerza Antioxidante Plusbelle 1l.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Shampoo Nutrición Plusbelle Bot 1000 ml",
+  "image": "assets/Shampoo Nutrición Plusbelle Bot 1000 ml.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Shampoo Sedal Ceramidas Repuesto 300 cc.",
+  "image": "assets/Shampoo Sedal Ceramidas Repuesto 300 cc..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Shampoo Sedal Restauración Repuesto 300 cc.",
+  "image": "assets/Shampoo Sedal Restauración Repuesto 300 cc..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Shampoo Sedal",
+  "image": "assets/Shampoo Sedal.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Shampoo",
+  "image": "assets/Shampoo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Sidra",
+  "image": "assets/Sidra.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Soda",
+  "image": "assets/Soda.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Soja",
+  "image": "assets/Soja.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Sonrisas",
+  "image": "assets/Sonrisas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Sopapa",
+  "image": "assets/Sopapa.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Sprite",
+  "image": "assets/Sprite.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Suavizante ropa",
+  "image": "assets/Suavizante ropa.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Taco",
+  "image": "assets/Taco.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Talco Desodorante para Pies",
+  "image": "assets/Talco Desodorante para Pies.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tampones",
+  "image": "assets/Tampones.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tang Naranja Mango",
+  "image": "assets/Tang Naranja Mango.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tang Naranja",
+  "image": "assets/Tang Naranja.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tang Pera",
+  "image": "assets/Tang Pera.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tang Uva",
+  "image": "assets/Tang Uva.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tapa Alfajor",
+  "image": "assets/Tapa Alfajor.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tapa de asado",
+  "image": "assets/Tapa de asado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tapa de empanadas",
+  "image": "assets/Tapa de empanadas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tapa Emp Arabe",
+  "image": "assets/Tapa Emp Arabe.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tapa para Empanada Árabes DI PASCUALLE 12u",
+  "image": "assets/Tapa para Empanada Árabes DI PASCUALLE 12u.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tapa para Empanada Freír DI PASCUALLE 12u",
+  "image": "assets/Tapa para Empanada Freír DI PASCUALLE 12u.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tapa Pascualina Criolla DANAL 2u",
+  "image": "assets/Tapa Pascualina Criolla DANAL 2u.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tapa Pascualina Criolla DI PASCUALLE 2u",
+  "image": "assets/Tapa Pascualina Criolla DI PASCUALLE 2u.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tapa Pascualina Hojaldre DI PASCUALLE 2u",
+  "image": "assets/Tapa Pascualina Hojaldre DI PASCUALLE 2u.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "tapas empanadas horno di pascualle 300 gr 12u",
+  "image": "assets/tapas empanadas horno di pascualle 300 gr 12u.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tapas para Empanada Horno DANAL 12u",
+  "image": "assets/Tapas para Empanada Horno DANAL 12u.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tapas para Empanadas Árabes DANAL 12u",
+  "image": "assets/Tapas para Empanadas Árabes DANAL 12u.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tatin Triple",
+  "image": "assets/Tatin Triple.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tatin",
+  "image": "assets/Tatin.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Taza",
+  "image": "assets/Taza.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Te en Saq",
+  "image": "assets/Te en Saq.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Te Menta",
+  "image": "assets/Te Menta.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "TE NEGRO LA VIRGINIA 50saq.",
+  "image": "assets/TE NEGRO LA VIRGINIA 50saq..png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Te Verde",
+  "image": "assets/Te Verde.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tempera",
+  "image": "assets/Tempera.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tenedor",
+  "image": "assets/Tenedor.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Terma Citrus",
+  "image": "assets/Terma Citrus.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Terma Manzana",
+  "image": "assets/Terma Manzana.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Terma Pomelo Rosado",
+  "image": "assets/Terma Pomelo Rosado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Terma Serrano",
+  "image": "assets/Terma Serrano.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Termo",
+  "image": "assets/Termo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tetera",
+  "image": "assets/Tetera.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Té en Saquitos La Virginia 50 u",
+  "image": "assets/Té en Saquitos La Virginia 50 u.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tijera",
+  "image": "assets/Tijera.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tita",
+  "image": "assets/Tita.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Toalla de mano",
+  "image": "assets/Toalla de mano.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Toallas Femeninas",
+  "image": "assets/Toallas Femeninas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Toallas Húmedas Antibacteriales",
+  "image": "assets/Toallas Húmedas Antibacteriales.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Toallitas Desmaquillantes",
+  "image": "assets/Toallitas Desmaquillantes.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Toallon",
+  "image": "assets/Toallon.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tomate Perita",
+  "image": "assets/Tomate Perita.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tomate redondo",
+  "image": "assets/Tomate redondo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Trapo de Piso",
+  "image": "assets/Trapo de Piso.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Trigo Pelado",
+  "image": "assets/Trigo Pelado.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Turrón de Maní",
+  "image": "assets/Turrón de Maní.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Tutucas",
+  "image": "assets/Tutucas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Uva Blanca",
+  "image": "assets/Uva Blanca.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Uva Negra",
+  "image": "assets/Uva Negra.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Vacio",
+  "image": "assets/Vacio.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Vainillas",
+  "image": "assets/Vainillas.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Vaso",
+  "image": "assets/Vaso.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Vela Bengala",
+  "image": "assets/Vela Bengala.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Vinagre al Alcohol",
+  "image": "assets/Vinagre al Alcohol.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Vinagre de Vino",
+  "image": "assets/Vinagre de Vino.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Vinagre Manzana",
+  "image": "assets/Vinagre Manzana.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Vincha para Pelo",
+  "image": "assets/Vincha para Pelo.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Vino Blanco en Caja",
+  "image": "assets/Vino Blanco en Caja.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Vino Blanco",
+  "image": "assets/Vino Blanco.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Vino Tinto en Caja",
+  "image": "assets/Vino Tinto en Caja.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Vino Tinto",
+  "image": "assets/Vino Tinto.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Virulana",
+  "image": "assets/Virulana.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Vitamina C",
+  "image": "assets/Vitamina C.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Vitina",
+  "image": "assets/Vitina.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Vivere",
+  "image": "assets/Vivere.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Vocación x3",
+  "image": "assets/Vocación x3.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Voligoma",
+  "image": "assets/Voligoma.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "WD-40",
+  "image": "assets/WD-40.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yerba Mas Sabor Compuesta x 1kg",
+  "image": "assets/Yerba Mas Sabor Compuesta x 1kg.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yerba Mas Sabor Compuesta x 500gr",
+  "image": "assets/Yerba Mas Sabor Compuesta x 500gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yerba Mas Sabor con Boldo x 500gr",
+  "image": "assets/Yerba Mas Sabor con Boldo x 500gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yerba Mas Sabor con Cedron x 500gr",
+  "image": "assets/Yerba Mas Sabor con Cedron x 500gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yerba Mas Sabor con Menta x 500gr",
+  "image": "assets/Yerba Mas Sabor con Menta x 500gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yerba Mas Sabor con Naranja x 500gr",
+  "image": "assets/Yerba Mas Sabor con Naranja x 500gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yerba Mas Sabor con Peperina x 500gr",
+  "image": "assets/Yerba Mas Sabor con Peperina x 500gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yerba Mate 1kg",
+  "image": "assets/Yerba Mate 1kg.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yerba Mate 500g",
+  "image": "assets/Yerba Mate 500g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yogur Descremado Ilolay Frutilla Bebible 1kg",
+  "image": "assets/Yogur Descremado Ilolay Frutilla Bebible 1kg.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yogur Descremado Ilolay Vainilla Bebible 1kg",
+  "image": "assets/Yogur Descremado Ilolay Vainilla Bebible 1kg.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yogur Entero Ilolay Frutilla Bebible 1kg",
+  "image": "assets/Yogur Entero Ilolay Frutilla Bebible 1kg.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yogur Entero Ilolay Vainilla Bebible 900g",
+  "image": "assets/Yogur Entero Ilolay Vainilla Bebible 900g.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yogur Frutilla",
+  "image": "assets/Yogur Frutilla.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yogur Ilolay Durazno Sachet x 900gr",
+  "image": "assets/Yogur Ilolay Durazno Sachet x 900gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yogur Ilolay Frutilla Sachet x 900gr",
+  "image": "assets/Yogur Ilolay Frutilla Sachet x 900gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yogur Ilolay Frutilla y Kiwi Sachet x 900gr",
+  "image": "assets/Yogur Ilolay Frutilla y Kiwi Sachet x 900gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yogur Ilolay Vainilla Sachet x 900gr",
+  "image": "assets/Yogur Ilolay Vainilla Sachet x 900gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yogur Milkaut Durazno Sachet x 900gr",
+  "image": "assets/Yogur Milkaut Durazno Sachet x 900gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yogur Milkaut Frutilla Sachet x 900gr",
+  "image": "assets/Yogur Milkaut Frutilla Sachet x 900gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yogur Milkaut Vainilla Sachet x 900gr",
+  "image": "assets/Yogur Milkaut Vainilla Sachet x 900gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yogur Vainilla",
+  "image": "assets/Yogur Vainilla.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yogurt Manfrey Banana x 900gr",
+  "image": "assets/Yogurt Manfrey Banana x 900gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yogurt Manfrey Durazno x 900gr",
+  "image": "assets/Yogurt Manfrey Durazno x 900gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Yogurt Manfrey Vainilla x 900gr",
+  "image": "assets/Yogurt Manfrey Vainilla x 900gr.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Zanahoria",
+  "image": "assets/Zanahoria.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Zapallitos",
+  "image": "assets/Zapallitos.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ },
+ {
+  "name": "Zapallo Anco",
+  "image": "assets/Zapallo Anco.png",
+  "price": 1.0,
+  "unit": "Cantidad",
+  "code": ""
+ }
+]
