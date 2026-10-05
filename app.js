@@ -11,13 +11,26 @@ const STORAGE_SCALE = 'settings_scale_v6';
 
 // --- CONFIGURACIÓN DEL PORTAL SEGURO (Actualizada) ---
 const PORTAL_CONFIG = [
-    { name: 'RunTime', url: 'https://www.runtime.tv/app', icon: '📺', method: 'direct' },
-    { name: 'Garden', url: 'https://tv.garden/', icon: '📺', method: 'direct' },
-    { name: 'Cartoons', url: 'https://lacartoons.com/', icon: '📺', method: 'direct' },
-    { name: 'Youtube', url: 'https://www.youtube.com/results?search_query=tv+en+vivo', icon: '📺', method: 'direct' },
-    { name: 'Radio Arg', url: 'https://www.radios-argentinas.org/', icon: '📻', method: 'direct' },
-    { name: 'Pluto', url: 'https://pluto.tv/latam/live-tv/5dcde437229eff00091b6c30', icon: '📚', method: 'direct' },
-    { name: 'New', url: 'https://news.net.ar/', icon: '📰', method: 'direct' }
+    { name: 'RunTime TV',     url: 'https://www.runtime.tv/app',                                   icon: '📺', method: 'iframe'   },
+    { name: 'TV Garden',      url: 'https://tv.garden/',                                           icon: '📺', method: 'iframe'   },
+    { name: 'LaCartoons',     url: 'https://lacartoons.com/',                                      icon: '📺', method: 'iframe'   },
+    { name: 'YouTube',        url: 'https://www.youtube.com/results?search_query=tv+en+vivo',      icon: '▶️', method: 'external' },
+    { name: 'Radios Arg',     url: 'https://www.radios-argentinas.org/',                           icon: '📻', method: 'iframe'   },
+    { name: 'Pluto TV',       url: 'https://pluto.tv/latam/live-tv',                               icon: '📺', method: 'external' },
+    { name: 'News.net.ar',    url: 'https://news.net.ar/',                                         icon: '📰', method: 'iframe'   },
+    { name: 'Wikipedia',      url: 'https://es.wikipedia.org/',                                    icon: '📚', method: 'iframe'   },
+    { name: 'Google',         url: 'https://www.google.com/webhp?igu=1',                           icon: '🔍', method: 'external' },
+    { name: 'El País',        url: 'https://elpais.com/',                                          icon: '📰', method: 'external' },
+    { name: 'Clarín',         url: 'https://www.clarin.com/',                                      icon: '📰', method: 'external' },
+    { name: 'Página 12',      url: 'https://www.pagina12.com.ar/',                                 icon: '📰', method: 'external' },
+    { name: 'TN Noticias',    url: 'https://tn.com.ar/',                                           icon: '📺', method: 'external' },
+    { name: 'A24',            url: 'https://www.a24.com/',                                         icon: '📺', method: 'external' },
+    { name: 'Spotify Web',    url: 'https://open.spotify.com/',                                    icon: '🎵', method: 'external' },
+    { name: 'Google Maps',    url: 'https://www.google.com/maps',                                  icon: '🗺️', method: 'external' },
+    { name: 'WhatsApp Web',   url: 'https://web.whatsapp.com/',                                    icon: '💬', method: 'external' },
+    { name: 'Gmail',          url: 'https://mail.google.com/',                                     icon: '📧', method: 'external' },
+    { name: 'Traductor',      url: 'https://translate.google.com/',                                icon: '🌍', method: 'external' },
+    { name: 'Drive',          url: 'https://drive.google.com/',                                    icon: '📁', method: 'external' }
 ];
 
 // SEGURIDAD: Credenciales actualizadas (admin / 1234) SHA-256
@@ -27,7 +40,13 @@ let isPortalAuthenticated = false;
 
 const $ = sel => document.querySelector(sel);
 const $$ = sel => document.querySelectorAll(sel);
-const uuid = () => crypto.randomUUID();
+const uuid = () => {
+  if (crypto && typeof crypto.randomUUID === 'function') return crypto.randomUUID();
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
+    const r = Math.random() * 16 | 0;
+    return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+  });
+};
 
 let pendingChanges = false;
 let currentListId = null;
@@ -155,18 +174,23 @@ function init() {
   applyStoredSettings(); // Aplicar tema/fuente/escala guardados
   setupNav();
   route();
-  window.addEventListener('hashchange', route);
+  window.addEventListener('hashchange', () => { route(); highlightNav(); });
   setupConfirmModal();
   setupSettingsModal(); // Configurar nuevo modal de settings
   setupLoginModal(); // INGENIERÍA: Inicializar modal de login seguro
   initCalculator();
   updateProductCountInNav();
+  setupGlobalImageFallback();
+  setupImageReportModal();
+  highlightNav();
+  window.addEventListener('orientationchange', applyDeviceClass);
 }
 
 /* ---------- Navegación ---------- */
 function setupNav() {
   $('#btn-products').addEventListener('click', () => tryNavigate('#products'));
   $('#btn-lists').addEventListener('click', () => tryNavigate('#lists'));
+  $('#btn-games').addEventListener('click', () => tryNavigate('#games'));
   
   // LOGICA DEL PORTAL MEJORADA (UX: Modal en vez de Prompt)
   $('#btn-portal').addEventListener('click', () => {
@@ -240,57 +264,119 @@ function route() {
   app.innerHTML = '';
   if (hash === '#products') renderProductsView(app);
   else if (hash === '#lists') renderListsView(app);
-  else if (hash === '#portal') renderPortalView(app); // Nueva Vista
+  else if (hash === '#portal') renderPortalView(app);
+  else if (hash === '#games') renderGamesView(app);
   else { location.hash = '#products'; renderProductsView(app); }
+  highlightNav();
 }
 
 /* ---------- Renderizado del Portal (Mejorado) ---------- */
+/* ---------- Renderizado del Portal (v8.0 Robusto) ---------- */
 function renderPortalView(container) {
     const tpl = document.getElementById('template-portal').content.cloneNode(true);
     container.appendChild(tpl);
-
     const btnContainer = container.querySelector('#portal-buttons-container');
     const iframe = container.querySelector('#portal-frame');
     const placeholder = container.querySelector('#portal-placeholder');
+    const loadingEl = container.querySelector('#portal-loading');
+    const blockedEl = container.querySelector('#portal-blocked');
+    const blockedText = container.querySelector('#portal-blocked-text');
+    const blockedOpen = container.querySelector('#portal-blocked-open');
+    const toolbar = container.querySelector('#portal-toolbar');
+    const currentTitle = container.querySelector('#portal-current-title');
+    const reloadBtn = container.querySelector('#portal-reload');
+    const openExtBtn = container.querySelector('#portal-open-external');
     const closeBtn = container.querySelector('#btn-close-portal');
 
-    // Generar botones desde la configuración
-    PORTAL_CONFIG.forEach(site => {
-        const btn = document.createElement('div');
-        btn.className = 'portal-btn';
-        btn.innerHTML = `
-            <span>${site.icon} ${site.name}</span>
-            <small style="font-size:0.7em">➡</small>
-        `;
-        
-        btn.addEventListener('click', () => {
-            // Lógica de carga
-            iframe.src = site.url;
-            iframe.classList.remove('hidden');
-            placeholder.classList.add('hidden');
-            
-            // Botón de emergencia si el sitio bloquea el iframe (Upgrade 7.0: Limpieza previa)
-            const existingForceBtn = container.querySelector('.force-open-btn');
-            if(existingForceBtn) existingForceBtn.remove();
-            
-            const forceBtn = document.createElement('button');
-            forceBtn.className = 'btn warning force-open-btn';
-            forceBtn.style.marginTop = '10px';
-            forceBtn.textContent = `↗ Abrir ${site.name} en pestaña nueva (si falla)`;
-            forceBtn.onclick = () => window.open(site.url, '_blank');
-            
-            // Insertar botón de emergencia arriba del visor
-            container.querySelector('.portal-viewer').insertBefore(forceBtn, iframe);
-        });
+    let currentSite = null;
+    let loadTimer = null;
 
+    function resetViewer() {
+        if (loadTimer) { clearTimeout(loadTimer); loadTimer = null; }
+        iframe.classList.add('hidden');
+        iframe.src = 'about:blank';
+        blockedEl.classList.add('hidden');
+        loadingEl.classList.add('hidden');
+        placeholder.classList.remove('hidden');
+        toolbar.hidden = true;
+        currentTitle.textContent = '—';
+    }
+    function markActive(btn) {
+        btnContainer.querySelectorAll('.portal-btn').forEach(b => b.classList.remove('active'));
+        if (btn) btn.classList.add('active');
+    }
+    function loadSite(site, btn) {
+        currentSite = site;
+        markActive(btn);
+        if (site.method === 'external') {
+            window.open(site.url, '_blank', 'noopener');
+            currentTitle.textContent = site.name + ' (abierto en pestaña nueva)';
+            toolbar.hidden = false;
+            placeholder.classList.add('hidden');
+            loadingEl.classList.add('hidden');
+            iframe.classList.add('hidden');
+            blockedText.textContent = '"' + site.name + '" bloquea la incrustación por seguridad (X-Frame-Options / CSP). Se abrió en una pestaña nueva.';
+            blockedEl.classList.remove('hidden');
+            return;
+        }
+        toolbar.hidden = false;
+        currentTitle.textContent = (site.icon || '') + ' ' + site.name;
+        placeholder.classList.add('hidden');
+        blockedEl.classList.add('hidden');
+        loadingEl.classList.remove('hidden');
+        iframe.classList.remove('hidden');
+        iframe.src = 'about:blank';
+        setTimeout(() => { iframe.src = site.url; }, 80);
+        if (loadTimer) clearTimeout(loadTimer);
+        loadTimer = setTimeout(() => {
+            loadingEl.classList.add('hidden');
+            blockedText.textContent = '"' + (currentSite ? currentSite.name : '') + '" no respondió o bloqueó la incrustación. Intente con "Abrir fuera".';
+            blockedEl.classList.remove('hidden');
+        }, 9000);
+    }
+
+    iframe.addEventListener('load', () => {
+        if (!currentSite || currentSite.method === 'external') return;
+        try {
+            const href = iframe.contentWindow.location.href;
+            if (href === 'about:blank') return;
+        } catch (e) {
+            // Origen cruzado => la página real cargó correctamente
+            if (loadTimer) { clearTimeout(loadTimer); loadTimer = null; }
+            loadingEl.classList.add('hidden');
+            blockedEl.classList.add('hidden');
+            return;
+        }
+        // Mismo origen accesible => página de error (sitio bloqueado)
+        if (loadTimer) { clearTimeout(loadTimer); loadTimer = null; }
+        loadingEl.classList.add('hidden');
+        blockedText.textContent = '"' + (currentSite ? currentSite.name : '') + '" rechaza mostrarse aquí (X-Frame-Options). Use apertura externa.';
+        blockedEl.classList.remove('hidden');
+        iframe.classList.add('hidden');
+    });
+
+    reloadBtn.addEventListener('click', () => {
+        if (currentSite) loadSite(currentSite, btnContainer.querySelector('.portal-btn.active'));
+    });
+    openExtBtn.addEventListener('click', () => { if (currentSite) window.open(currentSite.url, '_blank', 'noopener'); });
+    blockedOpen.addEventListener('click', () => { if (currentSite) window.open(currentSite.url, '_blank', 'noopener'); });
+
+    PORTAL_CONFIG.forEach(site => {
+        const btn = document.createElement('button');
+        btn.className = 'portal-btn';
+        btn.type = 'button';
+        const arrow = site.method === 'external' ? '↗' : '➡';
+        btn.innerHTML = '<span>' + (site.icon || '') + ' ' + escapeHtml(site.name) + '</span><small>' + arrow + '</small>';
+        btn.addEventListener('click', () => loadSite(site, btn));
         btnContainer.appendChild(btn);
     });
 
     closeBtn.addEventListener('click', () => {
         isPortalAuthenticated = false;
-        iframe.src = '';
+        resetViewer();
         location.hash = '#products';
     });
+    resetViewer();
 }
 
 /* ---------- Helpers de Storage ---------- */
@@ -764,6 +850,8 @@ function renderProductsView(container) {
   });
 
   // --- Lógica de Backup/Restore movida a setupSettingsModal() ---
+
+  container.querySelector('#btn-verify-images').addEventListener('click', verifyProductImages);
 
   function renderProductForm(product) {
     formArea.innerHTML = '';
@@ -2708,4 +2796,96 @@ function escapeCsv(v) {
   if (String(v).includes(',') || String(v).includes('"') || String(v).includes('\n'))
     return `"${String(v).replace(/"/g, '""')}"`;
   return v;
+}
+
+/* ============================================================
+   v8.0 - Zona de Juegos, fallback de imágenes y verificación
+   ============================================================ */
+function renderGamesView(container) {
+    const tpl = document.getElementById('template-games').content.cloneNode(true);
+    container.appendChild(tpl);
+    const hub = container.querySelector('#games-hub');
+    const stage = container.querySelector('#games-stage');
+    const backBtn = container.querySelector('#btn-games-back');
+    if (typeof GamesHub !== 'undefined' && GamesHub.init) {
+        GamesHub.init(hub, stage, backBtn);
+    } else {
+        hub.innerHTML = '<div style="padding:40px;text-align:center;color:var(--muted)">⚠️ No se pudo cargar el módulo de juegos. Verifique que <b>games.js</b> esté en la misma carpeta.</div>';
+    }
+}
+
+/* Fallback global: cualquier <img> que falle muestra un placeholder con iniciales */
+function setupGlobalImageFallback() {
+    document.addEventListener('error', (e) => {
+        const t = e.target;
+        if (!t || t.tagName !== 'IMG') return;
+        if (t.dataset.fallbackApplied) return;
+        t.dataset.fallbackApplied = '1';
+        const name = t.alt || t.getAttribute('data-name') || 'P';
+        try { t.src = placeholderImage(name); } catch (err) { t.style.display = 'none'; }
+    }, true);
+}
+
+/* Verifica cada producto: prueba cargar su imagen y reporta faltantes */
+function verifyProductImages() {
+    const products = loadProducts();
+    if (products.length === 0) { alert('❌ No hay productos cargados.'); return; }
+    showImageReport('<div class="img-report-summary">Verificando ' + products.length + ' productos… <span id="verify-progress">0</span>/' + products.length + '</div><div id="verify-list"></div>');
+    const listEl = document.getElementById('verify-list');
+    const progEl = document.getElementById('verify-progress');
+    let idx = 0, missing = 0, ok = 0, checked = 0;
+    const total = products.length;
+    function testNext() {
+        if (idx >= total) {
+            const s = document.querySelector('.img-report-summary');
+            if (s) s.innerHTML = '✅ Verificación completada.<br>🟢 Encontradas: <b>' + ok + '</b> &nbsp;&nbsp; 🔴 Faltantes / rotas: <b>' + missing + '</b>' +
+                (missing > 0 ? '<br><br><small style="font-weight:normal">Las faltantes muestran un placeholder con iniciales. Asegúrese de que el archivo exista en <b>assets/</b> con el nombre exacto del producto.</small>' : '');
+            return;
+        }
+        const batch = products.slice(idx, idx + 6);
+        idx += 6;
+        let pending = batch.length;
+        batch.forEach(p => {
+            const tried = (p.image && p.image.trim()) ? p.image : ('assets/' + p.name + '.png');
+            const img = new Image();
+            let done = false;
+            const finish = (isOk) => {
+                if (done) return; done = true;
+                checked++;
+                if (progEl) progEl.textContent = checked;
+                if (isOk) { ok++; }
+                else {
+                    missing++;
+                    const div = document.createElement('div');
+                    div.className = 'img-report-item missing';
+                    div.innerHTML = '🔴 <b>' + escapeHtml(p.name) + '</b><br><small>Ruta: <code>' + escapeHtml(tried) + '</code></small>';
+                    if (listEl) listEl.appendChild(div);
+                }
+                if (--pending === 0) testNext();
+            };
+            img.onload = () => finish(true);
+            img.onerror = () => finish(false);
+            img.src = tried + (tried.indexOf('?') !== -1 ? '&' : '?') + '_t=' + Date.now();
+        });
+    }
+    testNext();
+}
+
+function setupImageReportModal() {
+    const modal = document.getElementById('image-report-modal');
+    if (!modal) return;
+    document.getElementById('close-image-report').addEventListener('click', () => modal.classList.add('hidden'));
+    modal.addEventListener('click', (e) => { if (e.target === modal) modal.classList.add('hidden'); });
+}
+function showImageReport(html) {
+    const modal = document.getElementById('image-report-modal');
+    document.getElementById('image-report-body').innerHTML = html;
+    modal.classList.remove('hidden');
+}
+
+function highlightNav() {
+    const hash = location.hash || '#products';
+    $$('.main-menu button[data-route]').forEach(b => {
+        b.classList.toggle('active-nav', b.dataset.route === hash);
+    });
 }
