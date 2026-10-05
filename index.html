@@ -2,35 +2,38 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#2563eb" />
+  <meta name="description" content="Supermercado Pro - Gestión de productos, listas de compras, portal web y zona de juegos." />
   <title>Supermercado Pro</title>
   <link rel="stylesheet" href="styles.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js" defer></script>
 </head>
 <body data-theme="light">
-  
+
   <header class="topbar">
     <h1>Supermercado Pro</h1>
-    <nav class="main-menu">
-      <button id="btn-products" data-route="#products">🛒Adm Productos</button>
-      <button id="btn-lists" data-route="#lists">📝List de Compras</button>
-      <button id="btn-portal" class="btn-portal-secure">🌐Portal</button>
-      <button id="btn-calculator-popup" class="btn-calc">🧮Calc</button>
+    <nav class="main-menu" aria-label="Menú principal">
+      <button id="btn-products" data-route="#products">🛒 Adm. Productos</button>
+      <button id="btn-lists" data-route="#lists">📝 Listas de Compras</button>
+      <button id="btn-portal" class="btn-portal-secure">🌐 Portal</button>
+      <button id="btn-games" data-route="#games" class="btn-games-nav">🎮 Juegos</button>
+      <button id="btn-calculator-popup" class="btn-calc">🧮 Calc</button>
     </nav>
-    <button id="btn-settings" class="btn-calc" style="background: #64748b;" aria-label="Configuración">⚙️</button>
+    <button id="btn-settings" class="btn-calc" aria-label="Configuración">⚙️</button>
   </header>
 
-  <main id="app"></main>
+  <main id="app" aria-live="polite"></main>
 
+  <!-- ============ VISTA: ADMINISTRAR PRODUCTOS ============ -->
   <template id="template-products">
     <section class="page">
       <div class="page-header">
-        <h2>🛒Administrar Productos</h2>
+        <h2>🛒 Administrar Productos</h2>
         <div class="page-actions">
           <button id="btn-add-product" class="btn">➕ Agregar Producto</button>
         </div>
       </div>
-
       <div class="controls-row">
         <div class="left-col">
           <div class="list-actions">
@@ -38,10 +41,10 @@
             <button id="btn-del-prod" class="btn danger">🗑️ Borrar Prod</button>
             <button id="btn-select-all-prod" class="btn secondary">🔲 Seleccionar Todo</button>
             <button id="btn-update-from-assets" class="btn warning">🔄 Actualizar desde Assets</button>
+            <button id="btn-verify-images" class="btn success" title="Comprueba qué imágenes de la carpeta assets no se encuentran">🔍 Verificar Imágenes</button>
           </div>
           <ul id="product-list" class="item-list"></ul>
         </div>
-
         <div class="right-col">
           <div id="product-form-area"></div>
         </div>
@@ -49,17 +52,17 @@
     </section>
   </template>
 
+  <!-- ============ VISTA: LISTAS DE COMPRAS ============ -->
   <template id="template-lists">
     <section class="page page-gray">
       <div class="page-header">
-        <h2>📝Listas de Compras&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="btn-scan-barcode-header" style="cursor:pointer">📷</span></h2>
+        <h2>📝 Listas de Compras&nbsp;&nbsp;<span id="btn-scan-barcode-header" style="cursor:pointer" title="Escanear código de barras">📷</span></h2>
         <div class="page-actions">
-          <select id="lists-dropdown" class="select-list"></select>
+          <select id="lists-dropdown" class="select-list" aria-label="Seleccionar lista"></select>
           <button id="btn-new-list" class="btn">📝 Agregar Lista</button>
           <button id="btn-del-list" class="btn danger">🗑️ Borrar Lista</button>
         </div>
       </div>
-
       <div class="controls-row">
         <div class="right-col full-width">
           <div id="list-detail-area"></div>
@@ -68,40 +71,75 @@
     </section>
   </template>
 
+  <!-- ============ VISTA: PORTAL WEB ============ -->
   <template id="template-portal">
     <section class="page portal-page">
       <div class="page-header">
-        <h2>🌐Portal</h2>
+        <h2>🌐 Portal Web</h2>
         <div class="page-actions">
-            <button id="btn-close-portal" class="btn danger">🔒 Cerrar Sesión</button>
+          <button id="btn-close-portal" class="btn danger">🔒 Cerrar Sesión</button>
         </div>
       </div>
-      
       <div class="portal-container">
-        <div class="portal-sidebar">
-            <h3>Accesos Rápidos</h3>
-            <div id="portal-buttons-container" class="portal-grid">
-                </div>
-            <div class="portal-note">
-                <small>Nota: Algunos sitios pueden bloquear la visualización. Si no carga, use la opción de apertura externa.</small>
-            </div>
-        </div>
+        <aside class="portal-sidebar">
+          <h3>Accesos Rápidos</h3>
+          <div id="portal-buttons-container" class="portal-grid" role="tablist"></div>
+          <div class="portal-note">
+            <small>💡 Algunos sitios (YouTube, Google, bancos) bloquean su incrustación por seguridad. Si no se visualizan, use <b>Abrir en pestaña nueva</b>.</small>
+          </div>
+        </aside>
         <div class="portal-viewer">
-            <div id="portal-placeholder" class="portal-placeholder">
-                <div class="placeholder-content">
-                    <span style="font-size: 3rem;">🌐</span>
-                    <p>Seleccione un sitio del menú para visualizarlo.</p>
-                </div>
+          <div class="portal-toolbar" id="portal-toolbar" hidden>
+            <span class="portal-toolbar-title" id="portal-current-title">—</span>
+            <div class="portal-toolbar-actions">
+              <button id="portal-reload" class="btn small-btn" title="Recargar">🔄 Recargar</button>
+              <button id="portal-open-external" class="btn warning small-btn" title="Abrir en pestaña nueva">↗ Abrir fuera</button>
             </div>
-            <iframe id="portal-frame" class="portal-frame hidden" src="" title="Portal Viewer" sandbox="allow-scripts allow-same-origin allow-forms allow-popups"></iframe>
+          </div>
+          <div class="portal-frame-wrap">
+            <div id="portal-placeholder" class="portal-placeholder">
+              <div class="placeholder-content">
+                <span style="font-size:3rem">🌐</span>
+                <p>Seleccione un sitio del menú para visualizarlo aquí.</p>
+              </div>
+            </div>
+            <div id="portal-loading" class="portal-loading hidden">
+              <div class="spinner"></div>
+              <p>Cargando sitio…</p>
+            </div>
+            <div id="portal-blocked" class="portal-blocked hidden">
+              <div class="blocked-card">
+                <span style="font-size:2.5rem">🚫</span>
+                <h3>Este sitio bloquea la incrustación</h3>
+                <p id="portal-blocked-text">El sitio rechaza mostrarse dentro de otra página por políticas de seguridad (X-Frame-Options / CSP).</p>
+                <button id="portal-blocked-open" class="btn warning">↗ Abrir en pestaña nueva</button>
+              </div>
+            </div>
+            <iframe id="portal-frame" class="portal-frame hidden" src="about:blank" title="Visor del portal" referrerpolicy="no-referrer" loading="lazy"></iframe>
+          </div>
         </div>
       </div>
     </section>
   </template>
 
+  <!-- ============ VISTA: JUEGOS ============ -->
+  <template id="template-games">
+    <section class="page games-page">
+      <div class="page-header">
+        <h2>🎮 Zona de Juegos</h2>
+        <div class="page-actions">
+          <button id="btn-games-back" class="btn secondary" style="display:none">← Volver al menú de juegos</button>
+        </div>
+      </div>
+      <div id="games-hub" class="games-grid"></div>
+      <div id="games-stage" class="games-stage hidden"></div>
+    </section>
+  </template>
+
   <input type="file" id="file-input" accept="application/json" style="display:none" />
 
-  <div id="confirm-modal" class="modal hidden">
+  <!-- Modal de confirmación -->
+  <div id="confirm-modal" class="modal hidden" role="dialog" aria-modal="true">
     <div class="modal-card">
       <div id="confirm-text"></div>
       <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:12px">
@@ -110,29 +148,32 @@
       </div>
     </div>
   </div>
-  <div id="login-modal" class="modal hidden">
-    <div class="modal-card" style="max-width: 350px;">
+
+  <!-- Modal de login del portal -->
+  <div id="login-modal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-card" style="max-width:350px">
       <div class="modal-header">
         <h4>🛡️ Acceso Seguro</h4>
         <button id="close-login" class="btn-close">✖</button>
       </div>
-      <div style="padding: 20px;">
-        <div class="form-row" style="flex-direction: column; align-items: stretch;">
+      <div style="padding:20px">
+        <div class="form-row" style="flex-direction:column;align-items:stretch">
           <label>Usuario</label>
           <input type="text" id="login-user" placeholder="Ingrese usuario" autocomplete="username">
         </div>
-        <div class="form-row" style="flex-direction: column; align-items: stretch;">
+        <div class="form-row" style="flex-direction:column;align-items:stretch">
           <label>Contraseña</label>
           <input type="password" id="login-pass" placeholder="Ingrese contraseña" autocomplete="current-password">
         </div>
-        <div style="margin-top: 20px; text-align: right;">
-          <button id="btn-login-submit" class="btn success" style="width: 100%;">🔓 Ingresar</button>
+        <div style="margin-top:20px;text-align:right">
+          <button id="btn-login-submit" class="btn success" style="width:100%">🔓 Ingresar</button>
         </div>
       </div>
     </div>
   </div>
 
-  <div id="calculator-modal" class="modal hidden">
+  <!-- Calculadora -->
+  <div id="calculator-modal" class="modal hidden" role="dialog" aria-modal="true">
     <div class="calculator-popup">
       <div class="calculator-header">
         <h3>Calc</h3>
@@ -149,8 +190,7 @@
         <div class="operation-display"></div>
         <div class="result-display">0</div>
       </div>
-      <div class="calculator-keypad">
-        </div>
+      <div class="calculator-keypad"></div>
       <div class="calculator-actions">
         <button class="btn-save">💾 Guardar</button>
         <button class="btn-remove-last">🗑️ Borrar Último</button>
@@ -162,13 +202,13 @@
     </div>
   </div>
 
-  <div id="settings-modal" class="modal hidden">
+  <!-- Configuración -->
+  <div id="settings-modal" class="modal hidden" role="dialog" aria-modal="true">
     <div class="modal-card">
       <div class="settings-header">
-        <h3>Configuración General</h3>
+        <h3>⚙️ Configuración General</h3>
         <button id="close-settings" class="btn-close">✖</button>
       </div>
-      
       <div class="settings-section">
         <h4>🎨 Tema de la Aplicación</h4>
         <div class="setting-group" id="theme-selector">
@@ -177,9 +217,8 @@
           <button class="setting-btn" data-theme="dark">Oscuro</button>
         </div>
       </div>
-
       <div class="settings-section">
-        <h4>Abc Tamaño del Texto</h4>
+        <h4>🔤 Tamaño del Texto</h4>
         <div class="setting-group" id="font-size-selector">
           <button class="setting-btn" data-font-size="mini">Mini</button>
           <button class="setting-btn" data-font-size="small">Pequeño</button>
@@ -187,7 +226,6 @@
           <button class="setting-btn" data-font-size="large">Grande</button>
         </div>
       </div>
-
       <div class="settings-section">
         <h4>🔍 Escala de Interfaz</h4>
         <div class="setting-group" id="scale-selector">
@@ -196,9 +234,8 @@
           <button class="setting-btn" data-scale="0.8">Pequeño (80%)</button>
         </div>
       </div>
-
       <div class="settings-section">
-        <h4>💾 Gestión de Datos (Backup/Restore)</h4>
+        <h4>💾 Gestión de Datos (Backup / Restore)</h4>
         <div class="setting-group vertical">
           <button id="btn-backup-prod" class="btn secondary">📦 Backup Productos</button>
           <button id="btn-restore-prod" class="btn secondary">🔄 Restaurar Productos</button>
@@ -208,27 +245,39 @@
           <button id="btn-restore-all" class="btn secondary">🔄 Restaurar Completo</button>
         </div>
       </div>
-
     </div>
   </div>
 
-  <div id="barcode-scanner-modal" class="modal hidden">
-    <div class="modal-card" style="max-width: 640px; width: 100%; padding: 0;">
+  <!-- Escáner de código de barras -->
+  <div id="barcode-scanner-modal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-card" style="max-width:640px;width:100%;padding:0">
       <div class="modal-header">
         <h4>🔍 Escanear Código de Barras</h4>
         <button id="close-barcode-scanner" class="btn-close">✖</button>
       </div>
-      <div id="scanner-container" style="position: relative; width: 100%; height: 320px; background: black; overflow: hidden;">
-         <div id="interactive" class="viewport"></div>
-         <div class="scanner-laser"></div>
+      <div id="scanner-container" style="position:relative;width:100%;height:320px;background:#000;overflow:hidden">
+        <div id="interactive" class="viewport"></div>
+        <div class="scanner-laser"></div>
       </div>
-      <div style="padding: 16px; text-align: center; background: var(--card);">
-        <p style="font-size: 0.9rem; color: var(--text-light);">Alinee el código de barras dentro de la ventana.</p>
-        <button id="btn-stop-scan" class="btn danger" style="display:none;">Detener Cámara</button>
+      <div style="padding:16px;text-align:center;background:var(--card)">
+        <p style="font-size:0.9rem;color:var(--text-light)">Alinee el código de barras dentro de la ventana.</p>
+        <button id="btn-stop-scan" class="btn danger" style="display:none">Detener Cámara</button>
       </div>
     </div>
   </div>
 
+  <!-- Reporte de verificación de imágenes -->
+  <div id="image-report-modal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-card" style="max-width:640px">
+      <div class="modal-header">
+        <h4>🔍 Reporte de Imágenes</h4>
+        <button id="close-image-report" class="btn-close">✖</button>
+      </div>
+      <div id="image-report-body" style="max-height:60vh;overflow:auto"></div>
+    </div>
+  </div>
+
+  <script src="games.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
